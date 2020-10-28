@@ -1,5 +1,5 @@
 """
-consileon.data.translate
+consileon.nlp.translate
 ========================
 
 Translate single words in texts literally using dictionaries.
@@ -8,7 +8,7 @@ Used e.g. for generating bilingual word2vec models.
 import re
 import random
 
-import consileon.data.tokens as tkns
+import consileon.nlp.tokens as tkns
 
 RE_LEFT_SIDE = re.compile(
     r"^\s*(?:\[[~ '\w.]+\])?(?:\([ '\w]+\))?\s*([ \'\-\w]+\.?)(?: +\([ \d\w.:]+\))?\s+(?:/.*/)$")

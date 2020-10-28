@@ -1,8 +1,8 @@
 """
-consileon.data.word2vec_tools
+consileon.nlp.word2vec_tools
 =============================
 
-Tools and classes for integrating "consileon.data.tokens" und for
+Tools and classes for integrating "consileon.nlp.tokens" und for
 easing the training of word2vec/doc2vec models
 """
 
@@ -11,7 +11,7 @@ import time
 from os.path import basename
 from time import strftime
 
-import consileon.data.tokens as tkns
+import consileon.nlp.tokens as tkns
 import numpy as np
 from gensim.models import Word2Vec
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
@@ -29,7 +29,7 @@ def normalize(v):
     return v / l_
 
 
-logger = logging.getLogger('consileon.data.word2vec_tools')
+logger = logging.getLogger('consileon.nlp.word2vec_tools')
 
 
 class TaggedDocuments(tkns.IteratorModifier):

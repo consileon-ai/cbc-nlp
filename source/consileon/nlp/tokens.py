@@ -1,8 +1,8 @@
 """
-consileon.data.tokens
+consileon.nlp.tokens
 =====================
 
-Frameword and tools for stream based processing of textual data.
+Frameword and tools for stream based processing of textual nlp.
 
 The python concept of an "iterator" is heavily used.
 This is a python class implementing the "iterator protocol", which consists of
@@ -10,23 +10,50 @@ __iter__() and __next__(). An iterator is something like an iterable
 which can be reset by calling __iter__(). Therefore the elements of a loop can
 be passed through many times.
 
-Tokens implements two basic ideas which simplify working with iterators:
+Tokens implements some basic ideas which simplify working with iterators:
 
 1)
-    Modifiers on iterator items "also work on iterators". Those modifiers can be composed
+    Modifiers operator on single items like _texts_ or _lists of tokens_. Those modifiers can be composed
     using the operator "*".
 
     Example:
 
     ::
 
-        >>> import consileon.data.tokens as tkns
+        >>> import consileon.nlp.tokens as tkns
         >>> m = tkns.Lower() * tkns.LemmaTokenizeText()
         >>> m("Bälle sind meißt rund.")
         ['ball', 'sein', 'meißt', 'rund', '.']
 
-2) 
-    Modifiers on iterators can be composed ("pipelined") using the operator "**".
+2)
+    _Generators_ create iterators "out of nothing". They are the starting point of _pipelines.
+    Modifiers can be applied to iterators by using the operator `**`. It applies the modifiers
+    operation to every single item of the iterator. Thus,
+
+    Example:
+
+    ::
+        >>> import consileon.nlp.tokens as tkns
+        >>> g = tkns.ListGenerator(["Dies ist der erste Text.", "Dies ist ein weiterer Text."])
+        >>> i = tkns.LemmaTokenizeText() ** g
+        >>> print(list(i))
+
+        Or, yielding the same
+
+        >>> import consileon.nlp.tokens as tkns
+        >>> i = tkns.LemmaTokenizeText() ** tkns.ListGenerator(["Dies ist der erste Text.", "Dies ist ein weiterer Text."])
+
+        or
+
+        >>> import consileon.nlp.tokens as tkns
+        >>> g = tkns.ListGenerator(["Dies ist der erste Text.", "Dies ist ein weiterer Text."])
+        >>> m = tkns.LemmaTokenizeText()
+        >>> print(list(m ** g))
+
+
+3)
+    The are
+
 
 Iterators may be used as *document input* for word2vec training.
 """
@@ -46,7 +73,7 @@ import ast
 
 import sys
 
-logger = logging.getLogger('consileon.data.tokens')
+logger = logging.getLogger('consileon.nlp.tokens')
 
 nltk.download('stopwords')
 
@@ -134,9 +161,12 @@ class Iterator:
             raise StopIteration
 
 
-class SelfIterable:
+class BaseGenerator:
     """
     An iterable having itself as generator function.
+    Classes which _generate_ streams of texts from various nlp sources typically inherit
+    from the class.
+    These classes typically implement the method `__call__`.
     """
 
     def __call__(self):
@@ -204,10 +234,10 @@ class ItemModifier:
 
     ::
 
-        import consileon.data.tokens as tkns
-        dublicate = tkns.ItemModifier(f=lambda l : l * 2)
-        m = dublicate * tkns.TokenizeText()
-        m("Der Ball ist rund.")
+        >>> import consileon.nlp.tokens as tkns
+        >>> dublicate = tkns.ItemModifier(f=lambda l : l * 2)
+        >>> m = dublicate * tkns.TokenizeText()
+        >>> m("Der Ball ist rund.")
 
         ['Der', 'Ball', 'ist', 'rund', '.', 'Der', 'Ball', 'ist', 'rund', '.']
 
@@ -524,7 +554,7 @@ class SplitText(IteratorModifier):
         return Iterator(generator, is_tagged=other.is_tagged)
 
 
-class LineSourceIterator(SelfIterable):
+class LineSourceIterator(BaseGenerator):
     def __init__(self,
                  input_file,
                  log_freq=1000,
@@ -600,7 +630,7 @@ class LineSourceTokenizer(LineSourceIterator):
         self.get_line = get_line
 
 
-class XmlSourceIterator(SelfIterable):
+class XmlSourceGenerator(BaseGenerator):
     def __init__(self,
                  source_files,
                  content_tag="content",
@@ -616,7 +646,7 @@ class XmlSourceIterator(SelfIterable):
         self.tag_rule = tag_rule
         self.num_source_files = len(self.sourceFiles)
         logger.info("num_source_files : %i" % self.num_source_files)
-        super(XmlSourceIterator, self).__init__(is_tagged=is_tagged)
+        super(XmlSourceGenerator, self).__init__(is_tagged=is_tagged)
 
     def __call__(self):
         do_tag = None
@@ -861,10 +891,10 @@ class CountTokens(IteratorConsumer):
         return self
 
 
-class ListIterator(SelfIterable):
+class ListGenerator(BaseGenerator):
     def __init__(self, input_list, is_tagged=False):
         self.input_list = input_list
-        super(ListIterator, self).__init__(is_tagged=is_tagged)
+        super(ListGenerator, self).__init__(is_tagged=is_tagged)
 
     def __call__(self):
         if self.is_tagged:
@@ -875,7 +905,7 @@ class ListIterator(SelfIterable):
                 yield d
 
 
-class RandomStrings(ListIterator):
+class RandomStringsGenerator(ListGenerator):
     def __init__(self, number_of_docs=10, length_of_words=5, number_of_words=15, is_tagged=False):
         def gen_word():
             all_letters = string.ascii_lowercase + string.ascii_uppercase
@@ -888,7 +918,7 @@ class RandomStrings(ListIterator):
             return d[0].upper() + d[1:] + "."
 
         my_list = [gen_doc() for _ in range(number_of_docs)]
-        super(RandomStrings, self).__init__(my_list, is_tagged=is_tagged)
+        super(RandomStringsGenerator, self).__init__(my_list, is_tagged=is_tagged)
 
 
 class Untag(IteratorModifier):

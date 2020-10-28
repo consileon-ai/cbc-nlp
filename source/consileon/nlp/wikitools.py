@@ -1,9 +1,9 @@
 """
-consileon.data.wikitools
+consileon.nlp.wikitools
 ========================
 
 Construct a corpus from a Wikipedia (or other MediaWiki-based) database dump.
-Create text streams compatible with "consileon.data.tokens" which can be
+Create text streams compatible with "consileon.nlp.tokens" which can be
 feed (e.g.) into generator for word2vec models.
 
 The parts extracting the (very big) wiki source files are taken from the
@@ -16,13 +16,13 @@ import multiprocessing
 import re
 from xml.etree.cElementTree import iterparse  # LXML isn't faster, so let's go with the built-in solution
 
-import consileon.data.tokens as tkns
+import consileon.nlp.tokens as tkns
 from gensim import utils
 # cannot import whole gensim.corpora, because that imports wikicorpus...
 from gensim.corpora.dictionary import Dictionary
 from gensim.corpora.textcorpus import TextCorpus
 
-logger = logging.getLogger('de.consileon.data.wikitools')
+logger = logging.getLogger('de.consileon.nlp.wikitools')
 
 # ignore articles shorter than ARTICLE_MIN_WORDS characters (after full preprocessing)
 ARTICLE_MIN_WORDS = 50
@@ -307,7 +307,7 @@ def ignore_line(line):
     return len(line) < MIN_LENGTH_LINE or RE_IGNORE_LINE.match(line)
 
 
-class WikiFromTextIterator(tkns.SelfIterable):
+class WikiFromTextIterator(tkns.BaseGenerator):
     def __init__(self,
                  input_file,
                  log_freq=1000,

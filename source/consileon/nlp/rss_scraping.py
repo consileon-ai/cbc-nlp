@@ -1,5 +1,5 @@
 """
-consileon.data.rss_scraping
+consileon.nlp.rss_scraping
 =======================
 
 Read and store content from rss feeds
@@ -20,7 +20,7 @@ from xml.etree.ElementTree import ParseError
 
 from tika import parser as tk_parser
 
-logger = logging.getLogger('consileon.data.rss_scraping')
+logger = logging.getLogger('consileon.nlp.rss_scraping')
 
 
 class RssScraper:

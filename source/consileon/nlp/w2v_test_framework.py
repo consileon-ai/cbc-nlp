@@ -1,11 +1,11 @@
 """
-consileon.data.w2v_test_framework
+consileon.nlp.w2v_test_framework
 =================================
 
 A framework meant to ease the testing of word2vec models.
 
 Many testcases (e.g. consisting of similar words) are combined in a testset. This
-testset is evaluated using a word2vec model. Operations for data cleansing which have
+testset is evaluated using a word2vec model. Operations for nlp cleansing which have
 been used for building the models can be feed in the model and are automatically applied
 so the the testcases can be written in "normal language".
 
@@ -16,7 +16,7 @@ Example:
 
 ::
 
-	from consileon.data.w2v_test_framework import TestW2vModel
+	from consileon.nlp.w2v_test_framework import TestW2vModel
 	ts = {
 		'synonym' : [
 			('huge', 'big'),
@@ -31,24 +31,24 @@ Example:
 
 """
 
-import consileon.data.tokens as tkns
-import consileon.data.word2vec_tools as w2v
+import consileon.nlp.tokens as tkns
+import consileon.nlp.word2vec_tools as w2v
 import pandas as pd
-from consileon.data.w2v_const import SYNONYM, SIMILAR, NOT_SIMILAR, WORD_CALC, WORD_CALC_NEG, POS, NEG, IS, MOD
+from consileon.nlp.w2v_const import SYNONYM, SIMILAR, NOT_SIMILAR, WORD_CALC, WORD_CALC_NEG, POS, NEG, IS, MOD
 
 
 class TestW2vModel:
     """
     Class to perform tests gensim-Word2Vec which are specified in a test set as
-    given in the module "consileon.data.w2v_test_sets". A test set is a collection
+    given in the module "consileon.nlp.w2v_test_sets". A test set is a collection
     of test cases of (currently two) different types. The test cases in the test set
     are grouped, giving the the test set the structure of a python dictionary with
     the group names as keys.
 
-    The (optional) entry with key 'modifier' (= consileon.data.w2v_const.MOD) in the
+    The (optional) entry with key 'modifier' (= consileon.nlp.w2v_const.MOD) in the
     test set plays a special role. It's a function which is applied to the strings
     or lists in the test cases. It's generally defined as the 'ItemModifier' which
-    is used for data preparation of the input data of the word2vec model which will
+    is used for nlp preparation of the input nlp of the word2vec model which will
     be tested with the test set.
 
     If not such modifier is found, the identity function is taken.
@@ -93,7 +93,7 @@ class TestW2vModel:
 
         ::
 
-            from consileon.data.w2v_test_framework import TestW2vModel
+            from consileon.nlp.w2v_test_framework import TestW2vModel
             TestW2vModel(None).eval_pair(model, 'big', 'huge')
             # or
             cos = lambda a, b : TestW2vModel(None).eval_pair(model, a, b)

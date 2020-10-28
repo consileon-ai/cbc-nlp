@@ -1,16 +1,16 @@
 """
-consileon.data.w2v_test_cases
+consileon.nlp.w2v_test_cases
 =============================
 
 Testcases for the framework "w2v_test_framework" which have been
 predefined for ease of use.
 """
-import consileon.data.tokens as tkns
+import consileon.nlp.tokens as tkns
 
 import nltk
 import spacy
 
-from consileon.data.w2v_const import SYNONYM, SIMILAR, NOT_SIMILAR, WORD_CALC, WORD_CALC_NEG, POS, NEG, IS, MOD
+from consileon.nlp.w2v_const import SYNONYM, SIMILAR, NOT_SIMILAR, WORD_CALC, WORD_CALC_NEG, POS, NEG, IS, MOD
 
 STANDARD_DE = {
     MOD: tkns.Lower() * tkns.Remove() * tkns.LemmaTokenizeText(),

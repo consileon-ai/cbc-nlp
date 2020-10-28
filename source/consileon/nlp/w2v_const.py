@@ -1,8 +1,8 @@
 """
-consileon.data.w2v_const
+consileon.nlp.w2v_const
 ========================
 
-Constants used by "consileon.data.w2v_test_framework" and "w2v_test_cases".
+Constants used by "consileon.nlp.w2v_test_framework" and "w2v_test_cases".
 """
 SYNONYM = "synonym"
 SIMILAR = "similar"
