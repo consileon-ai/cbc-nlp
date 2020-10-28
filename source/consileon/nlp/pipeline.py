@@ -20,8 +20,8 @@ Tokens implements some basic ideas which simplify working with iterators:
 
     ::
 
-        >>> import consileon.nlp.tokens as tkns
-        >>> m = tkns.Lower() * tkns.LemmaTokenizeText()
+        >>> import consileon.nlp.pipeline as pipeline
+        >>> m = pipeline.Lower() * pipeline.LemmaTokenizeText()
         >>> m("Bälle sind meißt rund.")
         ['ball', 'sein', 'meißt', 'rund', '.']
 
@@ -33,21 +33,21 @@ Tokens implements some basic ideas which simplify working with iterators:
     Example:
 
     ::
-        >>> import consileon.nlp.tokens as tkns
-        >>> g = tkns.ListGenerator(["Dies ist der erste Text.", "Dies ist ein weiterer Text."])
-        >>> i = tkns.LemmaTokenizeText() ** g
+        >>> import consileon.nlp.pipeline as pipeline
+        >>> g = pipeline.ListGenerator(["Dies ist der erste Text.", "Dies ist ein weiterer Text."])
+        >>> i = pipeline.LemmaTokenizeText() ** g
         >>> print(list(i))
 
         Or, yielding the same
 
-        >>> import consileon.nlp.tokens as tkns
-        >>> i = tkns.LemmaTokenizeText() ** tkns.ListGenerator(["Dies ist der erste Text.", "Dies ist ein weiterer Text."])
+        >>> import consileon.nlp.pipeline as pipeline
+        >>> i = pipeline.LemmaTokenizeText() ** pipeline.ListGenerator(["Dies ist der erste Text.", "Dies ist ein weiterer Text."])
 
         or
 
-        >>> import consileon.nlp.tokens as tkns
-        >>> g = tkns.ListGenerator(["Dies ist der erste Text.", "Dies ist ein weiterer Text."])
-        >>> m = tkns.LemmaTokenizeText()
+        >>> import consileon.nlp.pipeline as pipeline
+        >>> g = pipeline.ListGenerator(["Dies ist der erste Text.", "Dies ist ein weiterer Text."])
+        >>> m = pipeline.LemmaTokenizeText()
         >>> print(list(m ** g))
 
 
@@ -73,7 +73,7 @@ import ast
 
 import sys
 
-logger = logging.getLogger('consileon.nlp.tokens')
+logger = logging.getLogger('consileon.nlp.pipeline')
 
 nltk.download('stopwords')
 
@@ -234,9 +234,9 @@ class ItemModifier:
 
     ::
 
-        >>> import consileon.nlp.tokens as tkns
-        >>> dublicate = tkns.ItemModifier(f=lambda l : l * 2)
-        >>> m = dublicate * tkns.TokenizeText()
+        >>> import consileon.nlp.pipeline as pipeline
+        >>> dublicate = pipeline.ItemModifier(f=lambda l : l * 2)
+        >>> m = dublicate * pipeline.TokenizeText()
         >>> m("Der Ball ist rund.")
 
         ['Der', 'Ball', 'ist', 'rund', '.', 'Der', 'Ball', 'ist', 'rund', '.']

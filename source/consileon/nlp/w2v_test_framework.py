@@ -31,7 +31,7 @@ Example:
 
 """
 
-import consileon.nlp.tokens as tkns
+import consileon.nlp.pipeline as tkns
 import consileon.nlp.word2vec_tools as w2v
 import pandas as pd
 from consileon.nlp.w2v_const import SYNONYM, SIMILAR, NOT_SIMILAR, WORD_CALC, WORD_CALC_NEG, POS, NEG, IS, MOD

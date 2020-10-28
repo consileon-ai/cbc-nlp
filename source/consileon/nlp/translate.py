@@ -8,7 +8,7 @@ Used e.g. for generating bilingual word2vec models.
 import re
 import random
 
-import consileon.nlp.tokens as tkns
+import consileon.nlp.pipeline as pipeline
 
 RE_LEFT_SIDE = re.compile(
     r"^\s*(?:\[[~ '\w.]+\])?(?:\([ '\w]+\))?\s*([ \'\-\w]+\.?)(?: +\([ \d\w.:]+\))?\s+(?:/.*/)$")
@@ -79,12 +79,12 @@ def reduce_to_noun_if_exists(a_dict):
             a_dict[l_] = r
 
 
-class PartiallyTranslate(tkns.ItemModifier):
+class PartiallyTranslate(pipeline.ItemModifier):
     def __init__(self,
                  dictionary,
                  translate_freq=5,
-                 orig_token_modifier=tkns.Append("_ORIG"),
-                 tokenize_translated=tkns.Append("_TRANS") * tkns.TokenizeText()
+                 orig_token_modifier=pipeline.Append("_ORIG"),
+                 tokenize_translated=pipeline.Append("_TRANS") * pipeline.TokenizeText()
                  ):
         self.dictionary = dictionary
         self.translateFreq = translate_freq

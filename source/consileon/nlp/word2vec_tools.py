@@ -2,7 +2,7 @@
 consileon.nlp.word2vec_tools
 =============================
 
-Tools and classes for integrating "consileon.nlp.tokens" und for
+Tools and classes for integrating "consileon.nlp.pipeline" und for
 easing the training of word2vec/doc2vec models
 """
 
@@ -11,7 +11,7 @@ import time
 from os.path import basename
 from time import strftime
 
-import consileon.nlp.tokens as tkns
+import consileon.nlp.pipeline as pipeline
 import numpy as np
 from gensim.models import Word2Vec
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
@@ -32,7 +32,7 @@ def normalize(v):
 logger = logging.getLogger('consileon.nlp.word2vec_tools')
 
 
-class TaggedDocuments(tkns.IteratorModifier):
+class TaggedDocuments(pipeline.IteratorModifier):
     def __call__(self, iterator):
         if not iterator.is_tagged:
             raise Exception(
@@ -43,10 +43,10 @@ class TaggedDocuments(tkns.IteratorModifier):
             for x in iterator:
                 yield TaggedDocument(words=x[0], tags=x[1])
 
-        return tkns.Iterator(generator, is_tagged=False)
+        return pipeline.Iterator(generator, is_tagged=False)
 
 
-class GensimBaseWrap(tkns.IteratorConsumer):
+class GensimBaseWrap(pipeline.IteratorConsumer):
     def __init__(self,
                  model_filename=None,
                  append_time_str=True
@@ -59,54 +59,51 @@ class GensimBaseWrap(tkns.IteratorConsumer):
         self.model_logger = self.create_model_logger()
         self.train_args = {}
 
+    def create_model_logger(self):
+        model_logger_fn = self.model_filename + ".log"
+        handler = logging.FileHandler(model_logger_fn)
+        handler.setFormatter(logging.Formatter('%(asctime)s %(name)s- %(levelname)s - %(message)s'))
+        model_logger = logging.getLogger(basename(self.model_filename))
+        model_logger.setLevel(logging.INFO)
+        model_logger.addHandler(handler)
+        return model_logger
 
-def create_model_logger(self):
-    model_logger_fn = self.model_filename + ".log"
-    handler = logging.FileHandler(model_logger_fn)
-    handler.setFormatter(logging.Formatter('%(asctime)s %(name)s- %(levelname)s - %(message)s'))
-    model_logger = logging.getLogger(basename(self.model_filename))
-    model_logger.setLevel(logging.INFO)
-    model_logger.addHandler(handler)
-    return model_logger
+    def get_iterator(self, iterator):
+        return iterator
 
-
-def get_iterator(self, iterator):
-    return iterator
-
-
-def __call__(self, iterator):
-    try:
-        model = self.model
-        model_logger = self.model_logger
-        model_logger.info("starting")
-        logger.info("starting")
-        start = time.time()
-        model_logger.info("build vocab")
-        logger.info("build vocab")
-        #
-        i = self.get_iterator(iterator)
-        model.build_vocab(i)
-        #
-        time_used = time.time() - start
-        log = "built vocab, time used = %i s" % time_used
-        model_logger.info(log)
-        logger.info(log)
-        #
-        model.train(i, total_examples=model.corpus_count, **self.train_args)
-        #
-        log = "saving model to file %s" % self.model_filename
-        model_logger.info(log)
-        logger.info(log)
-        log = "saving model to file %s" % self.model_filename
-        model_logger.info(log)
-        logger.info(log)
-        model.save(self.model_filename)
-        model_logger.info("finished.")
-        logger.info("finished.")
-        self.model = model
-        return self
-    except Exception as e:
-        logger.error("error creating model %s" % self.model_filename, exc_info=True)
+    def __call__(self, iterator):
+        try:
+            model = self.model
+            model_logger = self.model_logger
+            model_logger.info("starting")
+            logger.info("starting")
+            start = time.time()
+            model_logger.info("build vocab")
+            logger.info("build vocab")
+            #
+            i = self.get_iterator(iterator)
+            model.build_vocab(i)
+            #
+            time_used = time.time() - start
+            log = "built vocab, time used = %i s" % time_used
+            model_logger.info(log)
+            logger.info(log)
+            #
+            model.train(i, total_examples=model.corpus_count, **self.train_args)
+            #
+            log = "saving model to file %s" % self.model_filename
+            model_logger.info(log)
+            logger.info(log)
+            log = "saving model to file %s" % self.model_filename
+            model_logger.info(log)
+            logger.info(log)
+            model.save(self.model_filename)
+            model_logger.info("finished.")
+            logger.info("finished.")
+            self.model = model
+            return self
+        except Exception as e:
+            logger.error("error creating model %s" % self.model_filename, exc_info=True)
 
 
 class Word2VecWrap(GensimBaseWrap):
