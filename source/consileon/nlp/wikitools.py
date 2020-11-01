@@ -22,6 +22,8 @@ from gensim import utils
 from gensim.corpora.dictionary import Dictionary
 from gensim.corpora.textcorpus import TextCorpus
 
+import codecs
+
 logger = logging.getLogger('de.consileon.nlp.wikitools')
 
 # ignore articles shorter than ARTICLE_MIN_WORDS characters (after full preprocessing)
@@ -315,7 +317,8 @@ class WikiFromTextIterator(tkns.BaseGenerator):
                  min_text_length=20,
                  re_start_article=RE_START_ARTICLE,
                  re_end_article=RE_END_ARTICLE,
-                 re_ignore_line=RE_IGNORE_LINE
+                 re_ignore_line=RE_IGNORE_LINE,
+                 input_encoding='utf-8'
                  ):
         self.inputFile = input_file
         self.logFreq = log_freq
@@ -324,11 +327,15 @@ class WikiFromTextIterator(tkns.BaseGenerator):
         self.reStartArticle = re_start_article
         self.reEndArticle = re_end_article
         self.reIgnoreLine = re_ignore_line
+        self.inputEncoding = input_encoding
         super(WikiFromTextIterator, self).__init__()
 
     def __call__(self):
         try:
-            f = open(self.inputFile)
+            if self.inputEncoding is None:
+                f = codecs.open(self.inputFile, 'r')
+            else:
+                f = codecs.open(self.inputFile, 'r', self.inputEncoding)
             n_lines = 0
             n_parsed_articles = 0
             n_output_articles = 0
@@ -350,8 +357,8 @@ class WikiFromTextIterator(tkns.BaseGenerator):
                         if len(article_text) >= self.minTextLength:
                             if n_output_articles % self.logFreq == 0:
                                 logger.debug(
-                                    "lines read= %i, parsed articles= %i, " +
-                                    "output articles= %i, article start line:\n%s\n" %
+                                    "lines read= %i, parsed articles= %i, "
+                                    "output articles= %i, article start line:%s" %
                                     (n_lines, n_parsed_articles, n_output_articles+1, article_start_line)
                                 )
                             if n_output_articles % self.outputFreq == 0:

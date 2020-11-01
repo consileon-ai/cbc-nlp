@@ -73,6 +73,8 @@ import ast
 
 import sys
 
+import codecs
+
 logger = logging.getLogger('consileon.nlp.pipeline')
 
 nltk.download('stopwords')
@@ -559,12 +561,14 @@ class LineSourceIterator(BaseGenerator):
                  input_file,
                  log_freq=1000,
                  output_freq=1,
-                 tag_separator=STANDARD_SEPARATOR
+                 tag_separator=STANDARD_SEPARATOR,
+                 input_encoding='utf-8'
                  ):
         self.input_file = input_file
         self.logFreq = log_freq
         self.outputFreq = output_freq
         self.tag_separator = tag_separator
+        self.input_encoding = input_encoding
         super(LineSourceIterator, self).__init__()
         self.get_line = None
         self.handle_first_line()
@@ -572,7 +576,10 @@ class LineSourceIterator(BaseGenerator):
     def handle_first_line(self):
         first_line = None
         try:
-            file = open(self.input_file, 'r')
+            if self.input_encoding is None:
+                file = open(self.input_file, 'r')
+            else:
+                file = open(self.input_file, 'r', encoding=self.input_encoding)
             for first_line in file:
                 break
         except Exception:
@@ -595,7 +602,10 @@ class LineSourceIterator(BaseGenerator):
         self.get_line = get_line
 
     def __call__(self):
-        file = open(self.input_file, 'r')
+        if self.input_encoding is None:
+            file = open(self.input_file, 'r')
+        else:
+            file = open(self.input_file, 'r', encoding=self.input_encoding)
         try:
             c_in = 0
             c_out = 0
@@ -836,25 +846,54 @@ class Repeat(IteratorModifier):
 
 
 class TokensToFile(IteratorConsumer):
-    def __init__(self, filename, output_tag=True, tag_separator=STANDARD_SEPARATOR):
+    def __init__(self,
+                 filename,
+                 output_tag=True,
+                 tag_separator=STANDARD_SEPARATOR,
+                 output_encoding='utf-8',
+                 input_type=list
+                 ):
         self.filename = filename
         self.output_tag = output_tag
         self.tag_separator = tag_separator
+        self.output_encoding = output_encoding
+        self.input_type = input_type
 
     def __call__(self, iterator):
         if iterator.is_tagged:
             if self.output_tag:
-                def to_str(t_):
-                    return " ".join(t_[0]) + self.tag_separator + str(t_[1])
+                if self.input_type == list:
+                    def to_str(t_):
+                        return " ".join(t_[0]) + self.tag_separator + str(t_[1])
+                elif self.input_type == str:
+                    def to_str(t_):
+                        return t_[0] + self.tag_separator + str(t_[1])
+                else:
+                    raise (TypeError, "Unsupported input type %i" % str(self.input_type))
             else:
-                def to_str(t_):
-                    return " ".join(t_[0])
+                if self.input_type == list:
+                    def to_str(t_):
+                        return " ".join(t_[0])
+                elif self.input_type == str:
+                    def to_str(t_):
+                        return t_[0]
+                else:
+                    raise (TypeError, "Unsupported input type %i" % str(self.input_type))
         else:
-            def to_str(t_):
-                return " ".join(t_)
+            if self.input_type == list:
+                def to_str(t_):
+                    return " ".join(t_)
+            elif self.input_type == str:
+                def to_str(t_):
+                    return t_
+            else:
+                raise (TypeError, "Unsupported input type %i" % str(self.input_type))
         n = 0
         try:
-            file = open(self.filename, "w")
+            if self.output_encoding is None:
+                file = codecs.open(self.filename, 'w')
+            else:
+                file = codecs.open(self.filename, 'w', self.output_encoding)
             for t in iterator:
                 n += 1
                 file.write(to_str(t))
