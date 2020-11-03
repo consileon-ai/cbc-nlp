@@ -1,0 +1,645 @@
+<item>
+       <title>SARS-CoV-2 Steckbrief zur Coronavirus-Krankheit-2019 (COVID-19)</title>
+<link>https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Steckbrief.html</link>
+<pubDate>Fri, 30 Oct 2020 14:30:00 +0100</pubDate>
+<description>Der Steckbrief zu COVID-19 beleuchtet wesentliche epidemiologische und Public Health-relevante Aspekte des SARS-CoV-2-Erregers. Er basiert auf der laufenden Sichtung der wissenschaftlichen Literatur, inklusive der methodischen Bewertung der entsprechenden Quellen.</description>
+    <channel><title>Robert Koch-Institut: Neuartiges Coronavirus (2019-nCoV)</title>
+    <description>Dies ist der RSS-Feed des Robert Koch-Instituts zum Neuartigen Coronavirus (2019-nCoV).</description>
+    <link>https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/nCoV.html</link>
+    <language>de-de</language>
+    </channel><content language="default">SARS-CoV-2 Steckbrief zur Coronavirus-Krankheit-2019 (COVID-19)
+
+Stand: 30.10.2020
+
+Änderungen gegenüber der Version vom 16.10.2020: Es wurden insbesondere
+- im Kapitel 9 "Manifestationen..." ein neuer Abschnitt zu Langzeitfolgen / "Long Covid" hinzugefügt;
+- in den Kapitel 8, 15, 16, und 17 ältere Referenzen ausgetauscht;
+- sowie an verschiedenen Stellen editiert und gekürzt.
+
+Der Steckbrief zu COVID-19 beleuchtet wesentliche epidemiologische und Public Health-relevante Aspekte des SARS-CoV-2-Erregers. Er basiert auf der laufenden Sichtung der wissenschaftlichen Literatur, inklusive der methodischen Bewertung der entsprechenden Quellen. Der Steckbrief dient damit als orientierende Literatur-Zusammenfassung, kann aber nicht für jeden Gliederungspunkt die Detailtiefe einer systematischen Übersichtsarbeit darstellen. Für weiterführende Informationen zu spezifischen Fragestellungen verweisen wir auch auf die entsprechenden medizinischen Fachgesellschaften. Einige der referenzierten Veröffentlichungen sind bisher nur als Vorab-Publikation („preprint“) verfügbar. Das heißt, sie wurden zwar schon der (Fach-) Öffentlichkeit zur Verfügung gestellt, wurden aber noch nicht in einem Peer Review-Verfahren begutachtet. Da sich die Datenlage sehr rasch erweitert, kann nicht ausgeschlossen werden, dass Publikationen in der aktuellen Version des Steckbriefs noch nicht berücksichtigt wurden. Auch ist es möglich, dass einzelne Quellen von anderen Personen anders bewertet werden. Dieser Erregersteckbrief ist ein „dynamisches Dokument“, d. h. es werden laufend Erweiterungen, Präzisierungen und Kürzungen vorgenommen. Anmerkungen oder Ergänzungsvorschläge sind daher willkommen.
+
+Tabelle 1: Wesentliche Parameter zu COVID-19 im Überblick. Lageabhängige Parameter wie z. B. Altersmedian und Fall-Verstorbenen-Anteil sind dem Lagebericht zu entnehmen
+
+1. Erreger
+
+SARS-CoV-2 (Severe acute respiratory syndrome coronavirus type 2) ist ein neues Beta-Coronavirus, das Anfang 2020 als Auslöser von COVID-19 identifiziert wurde. Zu den Beta-Coronaviren gehören u.a. auch SARS-CoV und MERS-CoV.
+Coronaviren sind unter Säugetieren und Vögeln weit verbreitet. Sie verursachen beim Menschen vorwiegend milde Erkältungskrankheiten, können aber mitunter schwere Lungenentzündungen hervorrufen. SARS-CoV-2 verwendet das Enzym ACE-2 als Rezeptor, um in die Wirtszellen zu gelangen. Eine hohe ACE-2-Dichte besteht im Atemwegstrakt, sowie im Darm, in Gefäßzellen, in der Niere, im Herzmuskel und in anderen Organen. 
+
+Weiterführende Informationen zu den Erregereigenschaften finden sich in Abschnitt 19 „Besondere Aspekte“ unter „Tenazität und und Inaktivierung des Virus“ sowie im Dokument zu den virologischen Basisdaten von SARS-CoV-2 des Robert Koch-Instituts.
+
+nach oben
+
+2. Übertragungswege
+
+In der Allgemeinbevölkerung (gesellschaftlicher Umgang)
+
+Der Hauptübertragungsweg für SARS-CoV-2 ist die respiratorische Aufnahme virushaltiger Partikel, die beim Atmen, Husten, Sprechen, Singen und Niesen entstehen (1, 2). Je nach Partikelgröße bzw. den physikalischen Eigenschaften unterscheidet man zwischen den größeren Tröpfchen und kleineren Aerosolen, wobei der Übergang zwischen beiden Formen fließend ist. Während insbesondere größere respiratorische Partikel schnell zu Boden sinken, können Aerosole auch über längere Zeit in der Luft schweben und sich in geschlossenen Räumen verteilen. Ob und wie schnell die Tröpfchen und Aerosole absinken oder in der Luft schweben bleiben, ist neben der Größe der Partikel von einer Vielzahl weiterer Faktoren, u. a. der Temperatur und der Luftfeuchtigkeit, abhängig (2). 
+
+Beim Atmen und Sprechen, aber noch stärker beim Schreien und Singen, werden Aerosole ausgeschieden (3-12); beim Husten und Niesen entstehen zusätzlich deutlich vermehrt größere Partikel (13-15). Neben der steigenden Lautstärke können auch individuelle Unterschiede zu einer verstärkten Freisetzung beitragen (4). Grundsätzlich ist die Wahrscheinlichkeit einer Exposition gegenüber infektiösen Partikeln jeglicher Größe im Umkreis von 1-2 m um eine infizierte Person herum erhöht (16). Eine Maske (Mund-Nasen-Schutz oder Mund-Nasen-Bedeckung) kann das Risiko einer Übertragung durch Partikel jeglicher Größe im unmittelbaren Umfeld um eine infizierte Person reduzieren. 
+
+Bei längerem Aufenthalt in kleinen, schlecht oder nicht belüfteten Räumen kann sich die Wahrscheinlichkeit einer Übertragung durch Aerosole auch über eine größere Distanz als 1,5 m erhöhen, insbesondere dann, wenn eine infektiöse Person besonders viele kleine Partikel (Aerosole) ausstößt, sich längere Zeit in dem Raum aufhält und exponierte Personen besonders tief oder häufig einatmen. Durch die Anreicherung und Verteilung der Aerosole im Raum ist das Einhalten des Mindestabstandes zur Infektionsprävention ggf. nicht mehr ausreichend. Ein Beispiel dafür ist das gemeinsame Singen in geschlossenen Räumen über einen längeren Zeitraum, wo es z. T. zu hohen Infektionsraten kam, die sonst nur selten beobachtet werden (17, 18). Auch schwere körperliche Arbeit bei mangelnder Lüftung hat, beispielsweise in fleischverarbeitenden Betrieben, zu hohen Infektionsraten geführt (19). Ein effektiver Luftaustausch kann die Aerosolkonzentration in einem Raum vermindern. Übertragungen im Außenbereich kommen insgesamt selten vor (20) . Bei Wahrung des Mindestabstandes ist die Übertragungswahrscheinlichkeit im Außenbereich aufgrund der Luftbewegung sehr gering.
+
+Kontaktübertragung
+
+Eine Übertragung durch kontaminierte Oberflächen ist insbesondere in der unmittelbaren Umgebung der infektiösen Person nicht auszuschließen (21), da vermehrungsfähige SARS-CoV-2-Viren unter Laborbedingungen auf Flächen einige Zeit infektiös bleiben können (22, 23) (siehe unter Abschnitt 19 „Tenazität und Inaktivierung des Virus“). Bei COVID-19-Patienten wurden auch PCR-positive Stuhlproben (24-26) identifiziert. Für eine Ansteckung über Stuhl müssen Viren jedoch vermehrungsfähig sein. Dies wurde in Studien bisher nur selten gezeigt (27, 28).
+
+Konjunktiven als Eintrittspforte 
+
+In drei (von 63 untersuchten) Patienten mit COVID-19-Pneumonie waren Konjunktivalproben PCR-positiv (29). Dies ist jedoch kein Beleg, dass Konjunktiven als Eintrittspforte fungieren können.
+
+Übertragungen durch Nahrungsmittel 
+
+Nach jetzigem Wissensstand sind bislang keine Übertragungen durch den Verzehr kontaminierter Nahrungsmittel nachgewiesen. Weitere Informationen dazu finden Sie auf den Seiten des Bundesinstituts für Risikobewertung.
+
+Vertikale Übertragung von der (erkrankten) Mutter auf ihr Kind (vor und während der Geburt sowie über die Muttermilch)
+
+Nur wenige Studien haben diese Fragestellung untersucht (24, 30-39). Bislang sind nur einzelne Erkrankungsfälle als mögliche (37, 38) und einmal als bestätigte (40) Folge einer Infektion im Mutterleib beschrieben, meist zeigen Kinder SARS-CoV-2-positiver Mütter nach der Geburt keine Krankheitszeichen (35, 39, 41). 
+
+In Muttermilch gelang in einigen Fällen der Nachweis von Virus RNA (39). Eine erfolgreiche Virusanzucht aus Muttermilch ist bislang nicht beschrieben, daher ist nicht abschließend geklärt, ob SARS-CoV-2 durch Muttermilch übertragbar ist. 
+
+Medizinischer Sektor
+
+Im medizinischen Sektor sind alle potenziellen Übertragungswege von Bedeutung und müssen durch entsprechende Maßnahmen verhindert werden. Ein Hochrisikosetting sind Aerosol-produzierende Vorgänge, wie z. B. Intubation, Bronchoskopie oder bestimmte zahnärztliche Prozeduren. Zur Verhinderung einer Übertragung werden bei diesen Tätigkeiten spezielle Atemschutzmasken durch die betroffenen Berufsgruppen getragen.
+
+nach oben
+
+3. Übertragung durch asymptomatische, präsymptomatische und symptomatische Infizierte
+
+Generell wird unterschieden, ob eine ansteckende Person zum Zeitpunkt der Übertragung bereits erkrankt (symptomatisch) war, ob sie noch keine Symptome entwickelt hatte (präsymptomatisches Stadium) oder ob sie auch später nie symptomatisch wurde (asymptomatische Infektion). Eine große Bedeutung haben die Übertragungen von infektiösen Personen, wenn sie bereits Krankheitszeichen (Symptome) entwickelt haben (42, 43). Dabei können diese Symptome relativ subtil sein, wie z. B. Kopf- und Halsschmerzen. Eine solche Phase mit leichteren Symptomen kann einer späteren Phase mit „typischeren“ Symptomen, wie z. B. Fieber oder Husten, um ein oder zwei Tage vorausgehen (44). "Typischere" Symptome können aber auch ausbleiben.
+
+Darüber hinaus steckt sich ein relevanter Anteil von Personen bei infektiösen Personen innerhalb von 1-2 Tagen vor deren Symptombeginn an (42, 45). Wie groß dieser Anteil ist, kann nicht genau beziffert werden, da in vielen der Studien der „Symptombeginn“ nicht oder nicht gut definiert wurde. Schließlich gibt es vermutlich auch Ansteckungen durch Personen, die zwar infiziert und infektiös waren, aber gar nicht erkrankten (asymptomatische Übertragung). Diese Ansteckungen spielen vermutlich jedoch eine untergeordnete Rolle (46).
+
+Zur Verminderung des Übertragungsrisikos sind in allen drei Konstellationen die schnelle Isolierung von positiv getesteten Personen, die Identifikation und die frühzeitige Quarantäne enger Kontaktpersonen wirksam. Das Abstandhalten zu anderen Personen, das Einhalten von Hygieneregeln, das Tragen von (Alltags-)Masken sowie Lüften (AHA + L-Regel) sind Maßnahmen, die insbesondere auch die Übertragung von (noch) nicht erkannten Infektionen verhindern.
+
+nach oben
+
+4. Reproduktionszahl
+
+Die Basisreproduktionszahl R0 gibt an, wie viele Personen von einer infizierten Person durchschnittlich angesteckt werden, vorausgesetzt, dass in der Bevölkerung keine Immunität besteht und keine infektionspräventiven Maßnahmen ergriffen wurden. Eine Infektion breitet sich langfristig nur dann aus, wenn ihr R0 über 1 liegt. Es ist zu beachten, dass R0 nicht nur eine Eigenschaft des Erregers ist, sondern auch von Randbedingungen, wie z.B. der Bevölkerungsdichte und dem Kontaktverhalten abhängig ist. Für die Basisreproduktionszahl von SARS-CoV-2 wurde in mehreren systematischen Reviews (47-49) ein mittlerer Wert (Median) von 3,3 bis 3,8 ermittelt. Durch infektionspräventive Maßnahmen wie z. B. Abstand halten, das Tragen von Mund-Nase-Bedeckungen, Isolation Infizierter und Quarantäne von Kontaktpersonen kann die natürliche Übertragungsrate gesenkt werden, außerdem sinkt sie bei (deutlich) zunehmendem Anteil immuner Personen in der Bevölkerung. Den daraus resultierenden Wert nennt man Nettoreproduktionszahl (Reff oder Rt). Bei niedriger Neuerkrankungsrate kann die Reproduktionszahl durch einzelne Ausbruchsgeschehen stark beeinflusst werden und ist dann weniger aussagekräftig. In diesem Fall ist ein Wert über die gepoolten Daten aus mehreren Tage weniger für Ausreißer anfällig. Die Reproduktionszahl ist eine von mehreren Maßzahlen, die Auskunft darüber geben, wie gut eine Infektionskrankheit kontrolliert werden kann. Bei einer kurzen Inkubationszeit kann eine hohe Reproduktionszahl zu einer exponentiellen Ausbreitung in der Bevölkerung führen. 
+
+nach oben
+
+5. Inkubationszeit und serielles Intervall
+
+Die Inkubationszeit gibt die Zeit von der Ansteckung bis zum Beginn der Erkrankung an. Die mittlere Inkubationszeit (Median) wird in den meisten Studien mit 5-6 Tagen angegeben. In verschiedenen Studien wurde berechnet, zu welchem Zeitpunkt 95% der Infizierten Symptome entwickelt hatten, dabei lag das 95. Perzentil der Inkubationszeit bei 10-14 Tagen (50-56).
+
+Das serielle Intervall definiert das durchschnittliche Intervall vom Beginn der Erkrankung eines ansteckenden Falles bis zum Erkrankungsbeginn eines von diesem angesteckten Falles. Das serielle Intervall ist bei vielen Infektionskrankheiten länger als die Inkubationszeit, weil die Ansteckung oft erst dann erfolgt, wenn ein Fall symptomatisch geworden ist. Letzteres scheint auf SARS-CoV-2-Infektionen nicht zuzutreffen (57), was auch Studien zu asymptomatischen Übertragungen belegen (siehe oben). Das Robert Koch-Institut schätzt das serielle Intervall für SARS-CoV-2 im Median auf vier Tage (Interquartilsabstand: 3–5 Tage), was durch verschiedene Studien gestützt wird (45, 58-60). Prinzipiell ist das serielle Intervall jedoch keine stabile Eigenschaft eines Erregers, sondern hängt (wie die Reproduktionszahl, s. Abschnitt 4) ebenso von den Eigenschaften der Gesellschaft ab, in der sich ein Virus verbreitet.
+
+nach oben
+
+6. Manifestationsindex
+
+Der Manifestationsindex beschreibt den Anteil der Infizierten, die auch tatsächlich erkrankt sind. In der Literatur wird von unterschiedlichen Manifestationsindizes berichtet. Das hängt u. a. damit zusammen, dass Untersuchungssituationen in unterschiedlichen Settings sowie die untersuchten Populationen stark differieren. So könnten beispielsweise jüngere Personen ohne Vorerkrankungen nur einmal untersucht worden sein, und das u. U. auch nur während einer frühen Phase der Infektion und ohne Kenntnis darüber, ob sich im weiteren Verlauf noch Symptome entwickelten. Manifestationsindizes werden in verschiedenen Übersichtsarbeiten auf 55-85% geschätzt (61-63).
+
+nach oben
+
+7. Diagnostik 
+
+Die Infektion mit dem SARS-CoV-2 präsentiert sich mit einem breiten aber unspezifischen Symptomspektrum (siehe 9. „Manifestationen, Komplikationen und Folgeerkrankungen“), sodass die virologische Diagnostik die tragende Säule im Rahmen der Erkennung der Infektion, des Meldewesens und der Steuerung von Maßnahmen ist. Umfassende Informationen zur Indikation und Durchführung der Teste sowie zur Bewertung der Ergebnisse finden sich in den „Hinweisen zur Testung von Patienten auf Infektion mit dem neuartigen Coronavirus SARS-CoV-2“. In der Rubrik "Diagnostik und Teststrategie" (unter https://www.rki.de/covid-19) finden sich ferner hilfreiche Informationen zur Zahl der durchgeführten Tests und zur Nationalen Teststrategie.
+
+Siehe auch FAQs des RKI zur Diagnostik.
+
+nach oben
+
+8. Demografische Faktoren, Symptome und Krankheitsverlauf
+
+Frauen und Männer sind von einer SARS-CoV-2-Infektion etwa gleich häufig betroffen, Männer erkranken jedoch häufiger schwer und sterben laut einer Übersichtsarbeit doppelt so häufig wie Frauen (64, 65). Der Altersmedian in Deutschland liegt bei 45 Jahren. 
+
+Zu den im deutschen Meldesystem am häufigsten erfassten Symptomen zählen Husten, Fieber, Schnupfen, sowie Geruchs- und Geschmacksverlust (s. Tab. 2). Der Krankheitsverlauf variiert in Symptomatik und Schwere, es können symptomlose Infektionen bis hin zu schweren Pneumonien mit Lungenversagen und Tod auftreten. Insgesamt sind 2,1% aller Personen, für die bestätigte SARS-CoV-2 Infektionen in Deutschland übermittelt wurden, im Zusammenhang mit einer COVID-19-Erkrankung verstorben.
+
+An Besonderheiten in der Schwangerschaft zeigen die bisherigen Studien, dass Schwangere vergleichsweise seltener Symptome wie z.B. Fieber und Myalgien (Muskelschmerzen) (41, 66, 67) entwickeln. Eine begrenzte Zahl an Studien zeigt, dass die Wahrscheinlichkeit für die Aufnahme auf eine Intensivstation und für eine invasive Beatmung möglichwerweise höher ist. Die Mortalität ist insgesamt sehr gering, die bekannten Risikofaktoren (s. auch Abschnitt 15) erhöhen jedoch auch hier das Risiko für einen schwereren Verlauf. Da COVID-19 mit einer Hyperkoagulabilität (pathologisch erhöhte Blutgerinnung) einhergehen kann und es auch in der Schwangerschaft physiologisch zu einer Hyperkoagulabilität kommt, sollte die Indikation zur Thromboseprophylaxe sorgfältig geprüft werden (68-70).
+
+Tabelle 2: Erfasste Symptome für COVID-19 Fälle in Deutschland (Meldedaten) 
+
+* In Deutschland werden seit der 17. KW für die COVID-19-Fälle Geruchs- und Geschmacksverlust als Symptome erfasst. In vielen internationalen Studien wurde bei über der Hälfte der Probanden ein Geruchs- und/oder Geschmacksverlust nachgewiesen (71-73). Die deutlich höhere Prävalenz resultiert vermutlich aus der intensiveren Ermittlung solcher Symptome im Rahmen von Studien im Vergleich zum Meldewesen.
+
+nach oben
+
+9. Manifestationen, Komplikationen und Folgeerkrankungen
+
+COVID-19 kann sich in vielfältiger Weise und nicht nur in der Lunge, sondern auch in anderen Organsystemen manifestieren. Die Manifestationsorte sind u. a. von der Dichte der ACE-2 Rezeptoren in den Geweben abhängig, die dem Virus den Eintritt in die Zelle ermöglichen. Neben direkten zytopathischen (zellverändernden) Effekten werden überschießende Immunreaktionen sowie Durchblutungsstörungen in Folge einer Hyperkoagulabilität beobachtet (69, 70). 
+
+Pulmonale Erkrankungen 
+
+SARS-CoV-2 verursacht sehr häufig Atemwegsinfektionen. Meist in der zweiten Krankheitswoche kann sich eine Pneumonie entwickeln, die in ein beatmungspflichtiges ARDS (Acute Respiratory Distress Syndrome) fortschreiten kann, das u. U. eine Sauerstoffaufsättigung des Blutes außerhalb des Körpers (ECMO) erforderlich macht (74-76). 
+
+Neurologische Symptome und Erkrankungen
+
+Als neurologische Symptome werden Kopfschmerzen, Schwindel und andere Beeinträchtigungen beschrieben, die neuroinvasive Eigenschaften des Virus vermuten lassen (77-79). Dazu zählen auch neuropsychiatrische Symptome bzw. Krankheitsbilder (80, 81) sowie einzelne Fälle möglicherweise SARS-CoV-2-assoziierter akuter nekrotisierender hämorrhagischer Enzephalopathie (82) und Meningitis (83). Darüber hinaus sind Fälle eines Guillain-Barré- und Miller-Fisher-Syndroms beschrieben worden (81, 84-93). 
+
+Gastrointestinale Symptome
+
+Eine SARS-CoV-2 Infektion kann mit gastrointestinalen Symptomen (Übelkeit, Appetitlosigkeit, Erbrechen, abdominelle Schmerzen, Durchfälle) und Leberfunktionsstörungen einhergehen (94, 95). 
+
+Herz-Kreislauf-Symptome und Erkrankungen
+
+Eine kardiale Beteiligung ließ sich anhand erhöhter Herzenzyme bzw. Troponin bei einem Teil der Patienten nachweisen, darunter auch Kinder und Patienten mit mildem oder moderatem Verlauf (96-100). Insbesondere bei schweren Infektionen der Atemwege erleidet eine Reihe von Patienten kardiovaskuläre Erkrankungen, einschließlich Myokardschädigungen, Myokarditis, akutem Myokardinfarkt, Herzinsuffizienz, Herzrhythmusstörungen und venösen thromboembolischen Ereignissen (101, 102). Die pathologisch erhöhte Blutgerinnung geht bei schweren COVID-19-Verläufen mit einem erhöhten Risiko für Thromboembolien, u. a. in den unteren Extremitäten, sowie Lungenarterien- und zerebrovaskulären Embolien und möglichen Folgeschäden einher (103-106). 
+
+Nierenerkrankungen 
+
+Insbesondere bei schwer erkrankten beatmungspflichtigen COVID-19-Patienten wird das Auftreten von akutem, u. U. dialysepflichtigem, Nierenversagen beobachtet (25, 74, 107-114). 
+
+Dermatologische Manifestationen
+
+Es ist eine relativ große Bandbreite an dermatologischen Manifestationen beschrieben, die jedoch insgesamt selten sind (0,2-1,2%) (25). Dazu zählen juckende, morbilliforme Ausschläge, Papeln, Rötungen und ein Nesselsucht-ähnliches Erscheinungsbild sowie Hautbläschen und Frostbeulen-ähnliche Hautläsionen. In seltenen Fällen sind schwere Durchblutungsstörungen in den Akren bis hin zum Gangrän beschrieben (115-123). Das Auftreten dieser Hautmanifestationen wird sowohl am Anfang des Krankheitsverlaufs (noch vor anderen bekannten Symptomen) als auch im späteren Erkrankungsverlauf beobachtet. 
+
+PIMS
+
+Siehe Abschnitt 16 unter „Komplikationen“.
+
+Hyperinflammationssyndrom
+
+Einige Patienten mit schwerer SARS-CoV-2Infektion entwickeln 8-15 Tage nach Erkrankungsbeginn eine Verschlechterung im Sinne eines Hyperinflammationssyndroms, in dessen Folge es zu Multiorganversagen kommen kann, das mit einer hohen Mortalität assoziiert ist. Weitere Informationen hierzu finden Sie hier. 
+
+Ko-Infektionen
+
+Insbesondere schwer erkrankte COVID-19-Patienten können unter weiteren Infektionen leiden (99, 107, 124-129). Zu den nachgewiesenen Erregern zählen u. a. Mycoplasma pneumoniae, Candida albicans und Aspergillus spp. Zudem wurden in einigen Fällen Superinfektionen mit multiresistenten Bakterien (z. B. Klebsiella pneumoniae und Acinetobacter baumannii) festgestellt. 
+
+Langzeitfolgen
+
+Grundsätzlich werden längere Genesungszeiten bei Infektionskrankheiten mit Pneumonien beobachtet und sind prinzipiell nicht ungewöhnlich. Auch bei COVID-19 Erkrankungen können Wochen bzw. Monate nach der akuten Erkrankung noch Symptome vorhanden sein oder neu auftreten (130-132). Allerdings existiert aufgrund der Neuartigkeit des Krankheitsbildes der COVID-19 Erkrankung und den sehr unterschiedlichen klinischen Präsentationen bis jetzt keine einheitliche Definition für Langzeitfolgen (Englisch: „Long Covid“). In einer Übersichtsarbeit wurde daher vorgeschlagen, Langzeitfolgen nicht als einheitliches Phänomen zu betrachten, sondern verschiedene Krankheitsbilder zu beschreiben, die sowohl zeitversetzt als auch parallel in verschiedenen physiologischen Systemen auftreten können (133, 134). 
+
+Zum Beispiel lassen sich organspezifische Langzeitfolgen nach Intensivbehandlungen von längerfristigen Müdigkeitserscheinungen, Merkstörungen, Gedächtnisproblemen oder Wortfindungsstörungen, wie sie auch bei milderen Verläufen beobachtet werden, unterscheiden. Auch wird in der Literatur von unüblichen Symptomen wie plötzlichem Erbrechen und starkem Schwindel berichtet. Über den klinischen Verlauf von COVID-19 nach sehr milden oder asymptomatischen Erkrankungen ist bislang wenig bekannt. Verlässliche, repräsentative Daten zum Anteil der Erkrankten mit Langzeitfolgen liegen derzeitig nicht vor. Daten aus England deuten jedoch darauf hin, dass etwa 40% der hospitalisierten Erkrankten längerfristige Unterstützung benötigen und bei etwa 10% der nicht hospitalisierten, mild Erkrankten Symptome länger als 4 Wochen andauern (134). 
+
+nach oben
+
+10. Dauer der Ansteckungsfähigkeit (Kontagiosität)
+
+Der genaue Zeitraum, in dem Ansteckungsfähigkeit besteht, ist noch nicht klar definiert. Als sicher gilt, dass die Ansteckungsfähigkeit in der Zeit um den Symptombeginn am größten ist (135-138) und dass ein erheblicher Teil von Transmissionen bereits vor dem Auftreten erster klinischer Symptome erfolgt (136, 137, 139, 140). Zudem ist gesichert, dass bei normalem Immunstatus die Kontagiosität im Laufe der Erkrankung abnimmt, und dass schwer erkrankte Patienten mitunter länger infektiöses Virus ausscheiden als mild-moderat erkrankte Patienten (136, 138, 141). Bei mild-moderater Erkrankung geht die Kontagiosität 10 Tage nach Symptombeginn signifikant zurück (142-147). Bei schweren Erkrankungen gibt es Hinweise, dass die Patienten auch noch deutlich später als 10 Tage nach Symptombeginn ansteckend sein können (141). 
+
+Im Gegensatz zu replikationsfähigem Virus ist die RNA von SARS-CoV-2 bei vielen Patienten noch Wochen nach Symptombeginn mittels PCR-Untersuchung nachweisbar (148). Diese positiven PCR- Ergebnisse sind jedoch nicht mit Ansteckungsfähigkeit gleichzusetzen (138, 139, 144, 149, 150). 
+
+In einem gewissen Rahmen variieren die Angaben zur Zeitspanne der Ansteckungsfähigkeit vor bzw. nach Symptombeginn. Eine Ursache hierfür sind die zwischen verschiedenen Studien uneinheitlichen (oder fehlenden) Definitionen des Symptombeginns; außerdem wird eine unspezifische Initialsymptomatik nicht von allen Patienten als Krankheitsbeginn erkannt und mitgeteilt. 
+Der derzeitige Kenntnisstand zur Zeitdauer der Ansteckungsfähigkeit basiert auf zwei Arten von Untersuchungen: 
+
+nach oben
+
+11. Durchschnittliche Zeitintervalle bei der Behandlung
+
+
+
+
+Mediane Zeiträume bis zu verschiedenen Endpunkten sowie stationäre Aufenthaltsdauern (orientierende Angaben, basierend auf der aktuellen Studienlage)
+Quelle: Robert Koch-Institut
+
+
+Zeit von Symptombeginn bis Hospitalisierung
+
+Die Dauer bis zur Hospitalisierung wird nicht allein durch den Krankheitsverlauf sondern auch durch andere Faktoren, wie z.B. die Leistungsfähigkeit und Struktur der medizinischen Versorgung, bestimmt. Die Zeit bis zur Hospitalisierung aus einer chinesischen Fallserie aus Wuhan im Januar 2020 betrug etwa sieben Tage (141). Neuere Studien, z. B. aus Deutschland (n=50), England (n=16.749) und Shanghai (n=249), berichten über einen Zeitraum von im Mittel (Median) vier Tagen (IQR: 1-8 Tage) (156, 157). Für Patienten mit akutem Lungenversagen wurde ein Zeitraum von sieben (IQR: 2–10) Tagen berichtet (158). 
+
+Zeit von Symptombeginn bis Pneumonie und ARDS
+
+In einer Veröffentlichung (chinesische Fallserie [n = 1.099]) betrug die Zeitspanne von Symptombeginn bis Pneumonie vier Tage (IQR: 2–7 Tage), und bis zum akuten Lungenversagen acht Tage (IQR: 6-12) (25, 159).
+
+Zeit von Symptombeginn bzw. Hospitalisierung bis Aufnahme Intensivstation ITS
+
+Eine Studie mit 50 Patienten aus Deutschland berichtet über eine mittlere Dauer (Median) von neun Tagen von Symptombeginn bis zur ITS (158). Die Zeitspanne von Hospitalisierung bis ITS ist im Bericht des ISARIC (International Severe Acute Respiratory and Emerging Infections Consortium) auf Basis von 51.270 Erkrankten aus 42 Ländern im Mittel (Median) mit einem Tag angegeben (IQR: 1-3 Tage) (160). 
+
+Dauer des Aufenthalts im Krankenhaus und auf der Intensivstation 
+
+Die mittlere Gesamtdauer der Krankenhausaufenthalte von 51.270 Erkrankten im ISARIC Bericht wird im Mittel (Median) mit 8 Tagen angegeben (IQR: 6-10 Tage) (160). 
+
+Im Rahmen einer deutschen Sentinel-Erhebung über 1.426 COVID-19-Patienten mit einer akuten respiratorischen Erkrankung wurde eine mittlere Hospitalisierungsdauer (Median) von 10 Tagen angegeben (IQR: 5-19 Tage) (161). COVID-19-Patienten mit einer Intensivbehandlung waren hierbei im Median 16 Tage hospitalisiert (IQR: 8-27 Tage), Patienten mit mechanischer Beatmung für 18 Tage (IQR: 8-31 Tage). Wo eine Intensivbehandlung notwendig war, dauerte sie im Median 5 Tage (IQR: 2-15 Tage), eine mechanische Beatmung dauerte im Median 10 Tage (IQR: 3-19). Patienten ohne Intensivbehandlung oder Beatmung, die nach Hause entlassen werden konnten, waren im Schnitt 7 Tage hospitalisiert.
+
+Zeit von Symptombeginn bis zum Tod 
+
+In einer Fallserie wird die mittlere Dauer von Symptombeginn bis zum Tod mit 18 Tagen (162) und in einer Übersichtsarbeit mit 16 Tagen angeben (163).
+
+nach oben
+
+12. Angaben zu hospitalisierten COVID-19 Erkrankten
+
+Anteil der Hospitalisierten unter den Erkrankten
+
+Laut der Daten aus dem deutschen Meldesystem werden ca. 12% der in Deutschland übermittelten Fälle hospitalisiert.
+
+Anteil der Hospitalisierten, die auf ITS behandelt wurden
+
+Im Rahmen einer Fallserie aus 12 New Yorker Krankenhäusern wurden 14% der hospitalisierten COVID-19 Erkrankten intensivmedizinisch behandelt (164). Für Deutschland wurde dieser Anteil auf ca. 8 % geschätzt (165). Unter hospitalisierten COVID-19-Patienten mit einer schweren akuten Atemwegserkrankung mussten 37 % intensivmedizinisch behandelt werden (161).
+
+Anteil der beatmungspflichtigen Erkrankten
+
+Laut einer Studie mit über 10.021 Erkrankten in 920 Krankenhäusern in Deutschland wurden 17% beatmet, wobei das Risiko für eine Beatmungspflicht unter hospitalisierten Männern doppelt so hoch war wie bei Frauen (114). Laut dem von der Deutschen Interdisziplinären Vereinigung für Intensiv- und Notfallmedizin (DIVI) und dem RKI gemeinsam geführten DIVI-Intensivregister werden aktuell 49% der intensivmedizinisch behandelten Erkrankten beatmet (Stand 29. Oktober 2020). In einer Sentinelerhebung von hospitalisierten COVID-19-Patienten mit schwerer akuter Atemwegserkrankung wurden 22% der Patienten mechanisch beatmet (161).
+
+Anteil der invasiv beatmeten Patienten mit extrakorporaler Membranoxygenierung (ECMO)
+
+Hierzu liegen nur wenige Informationen vor. In einer Studie in den USA wurde bei 10% der beatmeten Patienten eine ECMO eingesetzt (166).
+
+Anteil Verstorbener unter Hospitalisierten und ITS-Patienten
+
+In der deutschen Studie mit 10.021 Hospitalisierten starben insgesamt 22% der Patienten. Die Letalität lag bei beatmungspflichtigen Patienten höher als bei nicht-beatmeten Patienten (53% vs. 16%) (114). In einer internationalen Übersichtsarbeit wurde der Anteil der Verstorbenen unter den intensivmedizinisch behandelten Erkrankten auf 34% geschätzt (167). In der deutschen Sentinel-Erhebung wurde der Anteil Verstorbenener unter hospitalisierten COVID-19-Patienten mit schwerer akuter Atemwegserkrankung mit 21% angegeben. Unter Intensivpatienten verstarben 30% und unter mechanisch beatmeten Patienten 36% (161).
+
+nach oben
+
+13. Fall-Verstorbenen-Anteil, Letalität
+
+Für den Fall-Verstorbenen-Anteil (engl. case fatality rate, CFR) teilt man die Zahl der gemeldeten verstorbenen Fälle durch die Zahl der gemeldeten Fälle in einer Population. Alternativ wird durch die Zahl der Fälle mit bekanntem Endpunkt (genesene und verstorbene Fälle) geteilt. Ersterer Quotient würde den endgültigen Anteil unterschätzen, bei letzterem Quotient würde der endgültige Anteil überschätzt werden. Die mit COVID-19 verbundenen CFRs sind vor allem altersspezifisch, variieren international stark zwischen den einzelnen Ländern und im Laufe der Zeit innerhalb der Länder (168). Wie bei SARS-CoV-1 zeigt sich jedoch ein ähnlicher Zusammenhang zwischen CFR und dem Alter – während der Fall-Verstorbenen-Anteil bei Erkrankten bis etwa 50 Jahren unter 0,1% liegt, steigt er ab 50 zunehmend an und liegt bei Personen über 80 Jahren häufig über 10%.
+
+Die Letalität beschreibt die Anzahl der verstorbenen Fälle als Anteil der Zahl der (tatsächlich) erkrankten Fälle. Dazu liegen keine verlässlichen Daten vor, weil die tatsächliche Anzahl erkrankter Menschen unbekannt ist.
+
+nach oben
+
+14. Therapie
+
+Informationen über die Therapie von COVID-19 sind unter anderem auf den Seiten der Fachgesellschaften, bei der Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften (AWMF) sowie auf den Seiten des RKI zu finden.
+
+nach oben
+
+15. Risikogruppen für schwere Verläufe
+
+Dieser Steckbrief dient lediglich als Orientierung und kann nur einen Überblick zu größeren Erkrankungsgruppen bzw. Risikofaktoren geben. Die Vielfalt verschiedener potentiell prädisponierender Vorerkrankungen und ihrer Schweregrade sowie die Vielzahl anderer Einflussfaktoren machen die Komplexität einer Risiko-Einschätzung deutlich. Daher ist eine generelle Festlegung zur Einstufung in eine Risikogruppe nicht möglich. Eine personenbezogene Risiko-Einschätzung im Sinne einer (arbeits-) medizinischen Beurteilung finden sich im Dokument "Umgang mit aufgrund der SARS-CoV-2-Epidemie besonders schutzbedürftigen Beschäftigten" :des Bundesministeriums für Arbeit und Soziales. Wichtige weiterführende Informationen zur Risiko-Einschätzung finden sich auch auf den Internetseiten der jeweiligen medizinischen Fachgesellschaften.
+
+Schwere Verläufe können auch bei Personen ohne bekannte Vorerkrankung (99, 169) und bei jüngeren Patienten auftreten (170, 171). Bei folgenden Personengruppen werden schwere Krankheitsverläufe häufiger beobachtet:
+
+Personen mit bestimmten Vorerkrankungen, ohne Rangfolge (114, 174, 175): 
+
+nach oben
+
+16. Kinder und Jugendliche
+
+Ungeborene und neugeborene Kinder
+
+Zur Zeit können keine validen Aussagen über die Auswirkung einer Infektion auf das ungeborene Kind gemacht werden, da es bisher nur wenige Follow-Up-Daten über Schwangere mit SARS-CoV-2-Infektion gibt. Grundsätzlich kann hohes Fieber während des ersten Trimenons der Schwangerschaft das Risiko von Komplikationen und Fehlbildungen erhöhen.
+
+Gemäß eines großen systematischen Reviews (41) wird bei an COVID-19 erkrankten Schwangeren keine erhöhte Rate an spontanen Frühgeburten beobachtet, der Anteil anderweitiger Frühgeburten ist jedoch größer. Zum Übertragungsweg des Virus von der Mutter auf das ungeborene Kind siehe Abschnitt 2, „vertikale Transmission“. Die Neugeborenen werden häufiger stationär aufgenommen bzw. beobachtet, was durch die jeweils geltenden Quarantäneregeln mit bedingt sein kann. Die perinatalen Outcomes Neugeborener von Müttern mit und ohne COVID-19 zeigen keine Unterschiede
+
+Kinder und Jugendliche
+
+Häufigkeit/Prävalenz: 
+
+
+Die auf PCR-Testung basierende Prävalenz als Ausdruck aktiver Infektionsgeschehen liegt bei Kindern in den meisten Studien niedriger als bei Erwachsenen (176-180). In serologischen Studien zeigt sich kein einheitliches Bild: teils unterscheiden sich die Seroprävalenzen wenig von Erwachsenen (181-184), teilweise zeigte sich bei Kindern im Vergleich eine niedrigere Seroprävalenz (185-188). Zu beachten ist, dass neben der Empfänglichkeit für eine Infektion auch Anzahl und Art der Kontakte eine Rolle spielen. Da die Studien meist während oder im Anschluss an Kontaktbeschränkungen bzw. Lockdown-Situationen durchgeführt wurden, ist die Übertragbarkeit auf den Alltag begrenzt.
+
+Empfänglichkeit/Suszeptibilität:
+In Studien in denen Kontaktpersonen von infektiösen Personen untersucht wurden, zeigte sich bei Kindern im Vergleich zu Erwachsenen meist eine geringere Empfänglichkeit (189-194). Kinder im Kindergartenalter waren weniger empfänglich für eine Infektion mit SARS-CoV-2 als Kinder im Schulalter (189, 192).
+
+Infektiosität:
+Die Infektiosität im Kindesalter wurde bisher selten untersucht und kann daher nicht abschließend bewertet werden. Die Ansteckungsrate durch Kinder war in Studien ähnlich hoch wie bei erwachsenen Primärfällen (195). Studien zur Viruslast bei Kindern zeigen keinen wesentlichen Unterschied zu Erwachsenen (196-198).
+
+Symptome und Verlauf:
+Wie bei Erwachsenen zählen Fieber und Husten zu den häufigsten Symptomen (199, 200). Weitere mögliche Krankheitszeichen sind Magen-Darm-Symptome, Kopfschmerzen, Körperschmerzen und Myalgie (Muskelschmerzen), Schnupfen, Halsschmerzen, Brustschmerzen und Herzrasen, Kurzatmigkeit und Atemnot und Geschmacks- und Geruchsverlust (180, 199-202). Eine Magen-Darm-Beteiligung kommt häufiger vor als bei Erwachsenen, teilweise auch ohne dass respiratorische Symptome vorliegen (203). Der Manifestationsindex wird in Studien etwas geringer als bei Erwachsenen beziffert (180, 204, 205). Die Mehrzahl der Kinder zeigt nach bisherigen Studien einen asymptomatischen oder milden Krankheitsverlauf (180, 183, 200, 202, 204, 206). Nur ein sehr kleiner Teil benötigt eine intensivmedizinische Versorgung und wird beatmungspflichtig (180, 200, 207). 
+
+Risikofaktoren für einen schweren Verlauf:
+Bei den hospitalisierten Kindern sind pulmonale (15 %) und kardiale (8 %) Vorerkrankungen häufiger registriert worden (208). Insbesondere bei Säuglingen und Kleinkindern sind auch schwere Verläufe beschrieben (204, 207-213). In einer europaweiten Studie waren ein Alter unter einem Monat, das Vorliegen einer Vorerkrankung sowie Anzeichen einer Infektion der unteren Atemwege Risikofaktoren für eine Aufnahme auf die Intensivstation (207). 
+
+Komplikationen:
+Mehrere Länder berichten Fälle mit einem Krankheitsbild, welches das ECDC als „paediatric inflammatory multisystem syndrome (PIMS)“ in Kombination mit einem „toxic shock syndrome“ (TSS) bezeichnet. PIMS-TSS weist Ähnlichkeit mit dem Kawasaki-Syndrom auf, das bei Kindern im Zusammenhang mit anderen Infektionskrankheiten beobachtet wird. Das Risiko für Kinder, an PIMS-TSS zu erkranken, wird vom ECDC als gering eingeschätzt, auch sind durch PIMS-TSS bedingte Todesfälle bei Kindern sehr selten (214-216). Informationen zu diesem Krankheitsbild werden u. a. auf den Webseiten der Deutschen Gesellschaft für Pädiatrische Infektiologie und des ECDC bereitgestellt.
+
+nach oben
+
+17. Immunität
+
+Eine Infektion mit SARS-CoV-2 induziert die Bildung unterschiedlicher Antikörperklassen, die im Median in der zweiten Woche nach Symptombeginn nachweisbar sind (217). Auch neutralisierende Antikörper sind in der Regel am Ende der zweiten Woche nach Symptombeginn nachweisbar (138, 218-225), jedoch konnten in zwei Studien bei 6% (224) bzw. 41% der Probanden (226) keine neutralisierenden Antikörper nachgewiesen werden. Zum jetzigen Zeitpunkt ist ungewiß, wie regelhaft, robust und dauerhaft eine Immunität aufgebaut wird. Erfahrungen mit anderen Coronavirus-Infektionen (SARS und MERS) deuten darauf hin, dass eine Immunität bis zu drei Jahre anhalten kann (227-230). Um genauere Aussagen zur SARS-CoV-2-Immunität treffen zu können, sind Langzeitstudien erforderlich (231). 
+
+In einigen Studien ist eine T-Zell-Kreuzreaktivität endemischer Coronaviren und SARS-CoV-2 berichtet worden. Diese Kreuzreaktivität lässt eine Hintergrundimmunität vermuten, die möglicherweise Schutz vor einer schweren COVID-19-Erkrankung bietet. Bei Untersuchungen zur zellulären SARS-CoV-1-Immunität wurden Virus-spezifische T-Zellen 6 bzw. 11 Jahre nach Infektion bei Genesenen nachgewiesen, jedoch nicht bei Nichtinfizierten (232, 233). Bei SARS-CoV-2 hingegen waren auch bei ca. einem Drittel der Probanden, die bisher keine Infektion mit SARS-CoV-2 hatten, reaktive CD4 T-Zellen gegen SARS-CoV-2 vorhanden (234). Bei Erkrankten wurde eine T-Zell-Reaktivität gegen das Spike-Protein (235, 236) sowie gegen weitere SARS-CoV-2-Proteine festgestellt (237, 238), die mit dem Nachweis neutralisierender Antikörper korrelierten (239). 
+
+T-Zellen konnten auch bei Infizierten nachgewiesen werden, die keine Antikörpertiter aufwiesen und asymptomatisch waren (240). Somit könnten T-Zellen auch bei fehlendem Antikörpernachweis Schutz bieten. Offen ist, ob diese Zellen auch vor einer Reinfektion schützen. Nach derzeitigem Wissenstand scheint es sich bei Reinfektionen um seltene Ereignisse zu handeln. Beim Menschen sind bisher nur sehr wenige Fälle von Reinfektionen bekannt, bei denen Veränderungen im viralen Genom festgestellt wurden (241-247). Dies spricht - in Abgrenzung zu einer längeren PCR-Positivität nach Infektion- für eine Reinfektion. Allerdings existiert bislang keine Reinfektions-Definition, in der Mindestunterschiede einer phylogenetischen Analyse sowie das Intervall zwischen den Erkrankungsepisoden festgelegt sind und der sowohl klinische als auch epidemiologische Daten zugrunde liegen. Es ist unklar, ob eine Reinfektion mit einer Transmission einhergehen kann. In den bisher beschriebenen Fällen konnte keine Transmission beobachtet weren. Weiterhin wurde bei schweren COVID-19-Verläufen mit Todesfolge eine Störung des B-Zell-Reifungsprozesses beschrieben (248). Es ist nicht bekannt, ob diese Störung der B-Zell-Reifung auch bei milderen Verläufen auftritt. Sowohl beim Menschen als auch im Tiermodell gibt es Hinweise, dass eine geschlechtsspezifische Immunantwort die Schwere der Erkrankung beeinflusst (249, 250).
+
+nach oben
+
+18. Impfung 
+
+Aktuell steht kein Impfstoff zum Schutz vor COVID-19 zur Verfügung. Laut WHO befinden sich mit Stand 19.Oktober 2020 198 Impfstoff-Kandidaten in der Entwicklung, die auf unterschiedlichen Wirkprinzipien beruhen (z. B. DNA, mRNA, Protein Subunit oder Vektor-Impfstoffe) (251).
+
+Die meisten Impfstoff-Kandidaten befinden sich derzeit noch in der prä-klinischen bzw. explorativen Entwicklungsphase. Mittlerweile werden aber auch schon 44 Impfstoff-Kandidaten in klinischen Studien an Menschen untersucht (Stand 19. Oktober 2020). Im Juli wurden die ersten Phase 3 Studien zum Nachweis der klinischen Wirksamkeit und Sicherheit mit verschiedenen Impfstoffkandidaten in verschiedenen Ländern genehmigt, u. a. für Vektorbasierte bzw. mRNA-Impfstoffe. Sofern die aus diesen Studien resultierenden Daten positiv sind, könnten erste COVID-19 Impfstoffe Anfang 2021 zugelassen werden. Ein genaues Datum, wann die Zulassungen erfolgen und wann mit ausreichenden Mengen an Impfstoff zu rechnen ist, lässt sich aber noch nicht absehen.
+
+nach oben
+
+19. Besondere Aspekte 
+
+„Superspreading“ und „superspreading events“
+
+Superspreading events (SSE) sind Ereignisse, bei denen eine infektiöse Person eine Anzahl an Menschen ansteckt, die deutlich über der durchschnittlichen Anzahl an Folgeinfektionen liegt. In diesem Erreger-Steckbrief werden SSE als Einzelereignisse verstanden, im Gegensatz zu Situationen mit intensiver Übertragung, in denen mehrere Ereignisse, möglicherweise über mehrere Tage, zum Übertragungsgeschehen beitragen.
+
+Für das Auftreten eines SSE sind die folgenden drei Aspekte von Bedeutung: (i) die Anwesenheit eines Superspreaders, (ii) die äußeren Begleitumstände (Setting) und (iii) die Eigenschaften der Exponierten. 
+
+Ad (i): die individuelle Infektiosität unterliegt vermutlich einer großen Streuung, so dass wenige Personen sehr infektiös und viele weniger infektiös sind (252). Möglicherweise spielt hier eine Rolle, dass manche Personen besonders viele infektiöse Partikel beim Atmen (253), Sprechen (254) oder Singen (255) emittieren (sogenannte „super-emitter“).
+
+Ad (ii): es gibt Begleitumstände, die eine ungewöhnlich hohe Übertragung begünstigen. Zu diesen gehören vor allem Situationen, in denen sich kleine, infektiöse Partikel (aerosolisierte Partikel) im Raum anreichern. Dazu tragen kleine Räume, keine oder geringe Frischluftzufuhr, längerer Aufenthalt (256) sowie die vermehrte Freisetzung kleiner Partikel durch Aktivitäten mit gesteigerter Atemtätigkeit wie Schreien, Singen, Sporttreiben oder andere schwere körperliche Aktivität bei. Ein weiterer Faktor können extensive soziale Interaktionen und erhöhte Kontaktraten sein. 
+
+Ad (iii): auch wenn sich unter den Exponierten besonders viele vulnerable Personen befinden, kann es zu einer großen Anzahl an Übertragungen kommen. So sind beispielsweise ältere Personen empfänglicher (suszeptibler) als jüngere (257, 258). 
+
+Klassische Beispiele für SSE sind die SARS-Ausbrüche im Jahr 2003 durch einen infizierten Arzt im Metropol-Hotel in Hong Kong (259) und durch eine einzelne infektiöse Person im Amoy Garden- Wohnkomplex in Hong Kong (260). Zu größeren COVID-19-Ausbrüchen kam es u. a. in Chören (18), in Fitnessstudios (261), bei religiösen Veranstaltungen (262, 263), in fleischverarbeitenden Betrieben (19, 264), während einer Busfahrt in China (265), oder während eines Jugendcamps in den USA (266). 
+
+Typische SSE-Settings und Situationen mit erhöhter Wahrscheinlichkeit für Übertragungen sollten vermieden werden. Dazu zählen u.a. Treffen in geschlossenen Räumen bei schlechter Belüftung, Menschenansammlungen und Gespräche ohne Mund-Nasen-Bedeckung (Vermeiden Sie die „Drei Gs“!).
+
+Untererfassung
+
+Die veröffentlichten Fallzahlen basieren auf den im Meldesystem gemäß Infektionsschutzgesetz erfassten COVID-19-Fällen. Veröffentlicht werden gemäß Falldefinition des RKI nur laborbestätigte COVID-19-Fälle unabhängig davon, ob klinische Symptome vorliegen. Die Vollzähligkeit der Erfassung hängt von verschiedenen Faktoren ab, einerseits von der medizinischen Versorgung, also u. a. davon, wie viele Personen einen Arzt aufsuchen und wie viele Laboruntersuchungen durchgeführt werden. Bei COVID-19 treten viele asymptomatische und milde Verläufe auf, sodass davon auszugehen ist, dass nicht alle Infizierten eine/n Arzt/Ärztin aufsuchen und auch nicht für alle ein Labortest veranlasst wird. Andererseits spielt die Fallfindung durch die Gesundheitsämter im Rahmen von Ausbruchsuntersuchungen und der Kontaktpersonennachverfolgung eine wichtige Rolle. 
+
+Im Rahmen von Antikörperstudien kann der Anteil der Personen geschätzt werden, die tatsächlich eine Infektion durchgemacht haben. Eine systematische Übersichtsarbeit über serologische SARS-CoV-2 Studien zeigt in 8 Studien eine große Spannweite der Untererfassung um den Faktor 2 bis 34, mit einem geschätzten durchschnittlichen Faktor von 10 (Mittelwert) (267). In einer in Gangelt im Kreis Heinsberg durchgeführten Studie wurde eine Untererfassung um den Faktor 5 gezeigt (268). Im Rahmen der Studie CORONA-MONITORING lokal werden in vier besonders betroffenen Regionen in Deutschland Antikörperstudien unter 2.000 hier lebenden Erwachsenen durchgeführt. Die ersten Ergebnisse aus Kupferzell und Bad Feilnbach sprechen ebenfalls für eine Untererfassung, die deutlich unter 10 liegt. Eine bundesweite Antikörperstudie in Zusammenarbeit mit dem Deutschen Institut für Wirtschaftsforschung ist geplant; die Datenerhebung läuft seit Oktober. 
+
+Es ist jedoch möglich, dass auch Antikörperstudien den Anteil der Infektionen unterschätzen (269). Zum Beispiel hat eine Pilotstudie des Karolinska-Instituts festgestellt, dass der Prozentsatz der Menschen, die nach einer milden oder asymptomatischen Erkrankung oder dem Kontakt mit infizierten Familienmitgliedern T-Zell-Reaktionen zeigten, die durchweg den Prozentsatz der nachweisbaren serologischen Antikörper (IgG-Reaktionen) gegen das Virus überstieg (270)
+
+Tenazität und Inaktivierung des Virus
+
+Die Tenazität beschreibt die Widerstandsfähigkeit eines Mikroorganismus gegenüber äußeren Einflüssen. Die nachfolgenden Daten zur Tenazität beruhen zu einem großen Teil auf Laboruntersuchungen mit SARS-CoV. Aufgrund der strukturellen Ähnlichkeit der beiden Viren SARS-CoV und SARS-CoV-2 liegt es nahe, die umfangreicheren Daten zu SARS-CoV der Tenazitäts-Beurteilung von SARS-CoV-2 zu Grunde zu legen. Inzwischen liegen auch Daten zu SARS-CoV-2 vor, die diese Annahmen bestätigen (22).
+
+Aerosole
+In einer Studie mit experimentell hergestellten, mit SARS-CoV-2-Viren angereicherten Aerosolen waren vermehrungsfähige Viren nach drei Stunden im Aerosol nachweisbar (22) (siehe Abschnitt 2 „Übertragungswege“).
+
+Stabilität auf Oberflächen
+In mehreren Untersuchungen wurde SARS-CoV-2-RNA auf verschiedenen Flächen in der Umgebung von COVID-19-Patienten gefunden (271-274). Jedoch gelang bisher in keinem Fall die Anzucht des Virus, so dass nicht geklärt ist, ob das Virus von solchen kontaminierten Flächen übertragen werden kann.
+
+Daten aus Laboruntersuchungen mit künstlich kontaminierten Materialien verschiedener Autoren beinhalten unterschiedliche Angaben wie lange Coronaviren auf Oberflächen infektiös bleiben. Diese Angaben sind schwer vergleichbar, da sie nach individuellen, bisher nicht standardisierten Methoden durchgeführt wurden. Infektiöse Viren wurden in Abhängigkeit von der Art der Oberflächen, der aufgebrachten Virusmenge, dem Virusstamm und weiteren Versuchbedingungen in einem Bereich von nur 5 min bis zu 7 Tagen nachgewiesen. Dabei scheinen nach gegenwärtigem Kenntnisstand beide SARS-CoV auf glatten Flächen länger infektiös zu bleiben (22, 277, 278, 279, 280). Eine neuere Publikation, die sich noch im wissenschaftlichen Prüfverfahren befindet und deren Daten unter speziellen nicht praxistypischen Laborbedingungen ermittelt wurden, gibt darüber hinaus an, bis zu 28 Tage infektiöse Viren nachgewiesen zu haben (275). 
+
+Bis 30°C bleibt die Infektiosität von SARS-CoV-2 konstant (276). Bei sehr hoher Luftfeuchtigkeit und hoher Temperatur (38°C, &gt;95% r.F.) konnte SARS-CoV bereits innerhalb von 24 Stunden inakiviert werden (277). 
+
+Temperaturbeständigkeit
+Zum Einfluss der Temperatur liegen überwiegend Daten zu SARS-CoV vor, die ausschließlich in Flüssigkeiten ermittelt wurden; Daten zur Einwirkung trockener Hitze liegen nicht vor. Darin weist das Virus eine relativ hohe Temperaturbeständigkeit auf. Verschiedene Studien deuten darauf hin, dass der Virustiter und der jeweils verwendete Stamm Unterschiede in der Temperaturbeständigkeit bedingen. Die Einbettung des Virus in Proteine oder Serum erfordert zur Inaktivierung längere Einwirkzeiten (278, 279). Aufgrund der unterschiedlichen Prüfbedingungen bei den verschiedenen Autoren, z.B. der geprüften Temperatur, des Virusstamms und der Virusmenge variieren die Angaben sehr stark und erscheinen teilweise widersprüchlich: Bei 60°C wird das Virus in Abhängigkeit von der Proteineinbettung in 15-30 Minuten bis unter die Nachweisgrenze inaktiviert (278), bei 65°C werden 10 Minuten zur weitgehenden Inaktivierung benötigt. Zum kompletten Verlust der Infektiosität werden bei 56°C und 65°C 90 Minuten und bei 75°C 30-45 Minuten angegeben (280, 281). Zu SARS-CoV-2 liegen bisher nur wenige Daten vor - bei 70°C wird das Virus in 5 Minuten inaktiviert (282). Niedrige Temperaturen (– 4°C) vermindern die Infektiosität bei beiden SARS-Coronaviren nicht (279, 282).
+
+UV-Beständigkeit
+Zur Wirkung von UV-Licht liegen unterschiedliche Daten zu SARS-CoV vor, die eine Abhängigkeit von der Viruseinbettung zeigen. In Gegenwart von Proteinen kann das Virus durch UVC nur geringfügig inaktiviert werden (284, 287). Eine Virussuspension von SARS-CoV-2 ohne Proteinbelastung konnte durch UVC-Strahlung über eine sehr kurze Distanz (3 cm) in 9 min unter experimentellen Bedingungen inaktiviert werden (283). UVA und Gammastrahlung bewirkten keine oder nur sehr geringe Inaktivierung (281, 283). 
+
+nach oben
+
+Literatur
+
+1. Haslbeck K, Schwarz K, Hohlfeld J, Seume J, Koch W. Submicron droplet formation in the human lung. Journal of aerosol science. 2010;41:429-38.
+2. Ji Y, Qian H, Ye J, Zheng X. The impact of ambient humidity on the evaporation and dispersion of exhaled breathing droplets: A numerical investigation. Journal of aerosol science. 2018;115:164-72.
+3. Anfinrud P, Stadnytskyi V, Bax CE, Bax A. Visualizing Speech-Generated Oral Fluid Droplets with Laser Light Scattering. The New England journal of medicine. 2020.
+4. Asadi S, Wexler AS, Cappa CD, Barreda S, Bouvier NM, Ristenpart WD. Aerosol emission and superemission during human speech increase with voice loudness. Sci Rep. 2019;9(1):2348.
+5. Asadi S, Wexler AS, Cappa CD, Barreda S, Bouvier NM, Ristenpart WD. Effect of voicing and articulation manner on aerosol particle emission during human speech. PloS one. 2020;15(1):e0227699.
+6. Lu J, Gu J, Li K, Xu C, Su W, Lai Z, et al. COVID-19 Outbreak Associated with Air Conditioning in Restaurant, Guangzhou, China, 2020. Emerging infectious diseases. 2020;26(7):1628-31.
+7. Li Y, Qian H, Hang J, Chen X, Hong L, Liang P, et al. Evidence for probable aerosol transmission of SARS-CoV-2 in a poorly ventilated restaurant. medRxiv. 2020.
+8. Stadnytskyi V, Bax CE, Bax A, Anfinrud P. The airborne lifetime of small speech droplets and their potential importance in SARS-CoV-2 transmission. Proceedings of the National Academy of Sciences. 2020:202006874.
+9. Tellier R, Li Y, Cowling BJ, Tang JW. Recognition of aerosol transmission of infectious agents: a commentary. BMC Infect Dis. 2019;19(1):101.
+10. Morawska L, Cao J. Airborne transmission of SARS-CoV-2: The world should face the reality. Environ Int. 2020;139:105730.
+11. Mürbe D, Fleischer M, Lange J, Rotheudt H, Kriegel M. Aerosol emission is increased in professional singing. 2020.
+12. Morawska L, Johnson GR, Ristovski ZD, Hargreaves M, Mengersen K, Corbett S, et al. Size distribution and sites of origin of droplets expelled from the human respiratory tract during expiratory activities. Journal of aerosol science. 2009;40(3):256-69.
+13. CDC. How COVID-19 Spreads: Centers for Disease Control and Prevention (CDC); 2020 [updated February 17, 2020. Available from: https://www.cdc.gov/coronavirus/2019-ncov/about/transmission.html.
+14. Wu YC, Chen CS, Chan YJ. Overview of The 2019 Novel Coronavirus (2019-nCoV): The Pathogen of Severe Specific Contagious Pneumonia (SSCP). Journal of the Chinese Medical Association : JCMA. 2020.
+15. Dbouk T, Drikakis D. On coughing and airborne droplet transmission to humans. Physics of Fluids. 2020;32(5):053310.
+16. Liu L, Li Y, Nielsen PV, Wei J, Jensen RL. Short-range airborne transmission of expiratory droplets between two people. Indoor air. 2017;27(2):452-62.
+17. Streek H, Schulte B, Kümmerer B, Richter E, Höller T, Fuhrmann C, et al. Infection fatality rate of SARS-CoV-2 infection in a German community with a super-spreading event. MedRxiv preprint. 2020.
+18. Hamner L, Dubbel P, Capron I, Ross A, Jordan A, Lee J, et al. High SARS-CoV-2 Attack Rate Following Exposure at a Choir Practice - Skagit County, Washington, March 2020. MMWR Morbidity and mortality weekly report. 2020;69(19):606-10.
+19. Guenther T C-SM, Indenbirken D et al. Investigation of a superspreading event preceding the largest meat processing plant-related SARS-Coronavirus 2 outbreak in Germany (July 17, 2020) 2020 [updated 23.07.2020. Available from: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3654517.
+20. Leclerc QJ, Fuller NM, Knight LE, Group CC-W, Funk S, Knight GM. What settings have been linked to SARS-CoV-2 transmission clusters? Wellcome open research. 2020;5:83.
+21. European Centre for Disease Prevention and Control (ECDC). Factsheet for health professionals on Coronaviruses European Centre for Disease Prevention and Control; 2020 [Available from: https://www.ecdc.europa.eu/en/factsheet-health-professionals-coronaviruses.
+22. van Doremalen N, Bushmaker T, Morris DH, Holbrook MG, Gamble A, Williamson BN, et al. Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1. The New England journal of medicine. 2020.
+23. Liu Y, Li T, Deng Y, Liu S, Zhang D, Li H, et al. Stability of SARS-CoV-2 on environmental surfaces and in human excreta. medRxiv. 2020.
+24. Zhang W, Du R-H, Li B, Zheng X-S, Yang X-L, Hu B, et al. Molecular and serological investigation of 2019-nCoV infected patients: implication of multiple shedding routes. Emerging microbes &amp; infections. 2020;9(1):386-9.
+25. Guan W, Ni Z, Hu Y, Liang W, Ou C, He J, et al. Clinical characteristics of coronavirus disease 2019 in China. New England Journal of Medicine. 2020;382(18):1708-20.
+26. Xiao F, Tang M, Zheng X, Liu Y, Li X, Shan H. Evidence for Gastrointestinal Infection of SARS-CoV-2. Gastroenterology. 2020;158(6):1831-3.e3.
+27. Wang W, Xu Y, Gao R, Lu R, Han K, Wu G, et al. Detection of SARS-CoV-2 in Different Types of Clinical Specimens. Jama. 2020.
+28. Xiao F, Sun J, Xu Y, Li F, Huang X, Li H, et al. Infectious SARS-CoV-2 in Feces of Patient with Severe COVID-19. Emerging infectious diseases. 2020;26(8).
+29. Zhou Y, Zeng Y, Tong Y, Chen C. Ophthalmologic evidence against the interpersonal transmission of 2019 novel coronavirus through conjunctiva. MedRxiv. 2020.
+30. Wang X, Zhou Z, Zhang J, Zhu F, Tang Y, Shen X. A case of 2019 Novel Coronavirus in a pregnant woman with preterm delivery. Clinical infectious diseases : an official publication of the Infectious Diseases Society of America. 2020.
+31. Chen S, Huang B, Luo DJ, Li X, Yang F, Zhao Y, et al. [Pregnant women with new coronavirus infection: a clinical characteristics and placental pathological analysis of three cases]. Zhonghua bing li xue za zhi = Chinese journal of pathology. 2020;49(0):E005.
+32. Chen H, Guo J, Wang C, Luo F, Yu X, Zhang W, et al. Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records. The Lancet. 2020.
+33. Zhu H, Wang L, Fang C, Peng S, Zhang L, Chang G, et al. Clinical analysis of 10 neonates born to mothers with 2019-nCoV pneumonia. Transl Pediatr. 2020;9(1):51-60.
+34. Zhang L, Jiang Y, Wei M, Cheng BH, Zhou XC, Li J, et al. [Analysis of the pregnancy outcomes in pregnant women with COVID-19 in Hubei Province]. Zhonghua fu chan ke za zhi. 2020;55(0):E009.
+35. Zeng H, Xu C, Fan J, Tang Y, Deng Q, Zhang W, et al. Antibodies in Infants Born to Mothers With COVID-19 Pneumonia. Jama. 2020.
+36. Dong L, Tian J, He S, Zhu C, Wang J, Liu C, et al. Possible Vertical Transmission of SARS-CoV-2 From an Infected Mother to Her Newborn. Jama. 2020.
+37. Zeng L, Xia S, Yuan W, Yan K, Xiao F, Shao J, et al. Neonatal Early-Onset Infection With SARS-CoV-2 in 33 Neonates Born to Mothers With COVID-19 in Wuhan, China. JAMA pediatrics. 2020.
+38. Alzamora MC, Paredes T, Caceres D, Webb CM, Valdez LM, La Rosa M. Severe COVID-19 during Pregnancy and Possible Vertical Transmission. American journal of perinatology. 2020.
+39. Yu N, Li W, Kang Q, Xiong Z, Wang S, Lin X, et al. Clinical features and obstetric and neonatal outcomes of pregnant patients with COVID-19 in Wuhan, China: a retrospective, single-centre, descriptive study. The Lancet Infectious diseases. 2020;20(5):559-64.
+40. Vivanti AJ, Vauloup-Fellous C, Prevot S, Zupan V, Suffee C, Do Cao J, et al. Transplacental transmission of SARS-CoV-2 infection. Nature communications. 2020;11(1):3572.
+41. Allotey J, Stallings E, Bonet M, Yap M, Chatterjee S, Kew T, et al. Clinical manifestations, risk factors, and maternal and perinatal outcomes of coronavirus disease 2019 in pregnancy: living systematic review and meta-analysis. BMJ (Clinical research ed). 2020;370:m3320.
+42. He X, Lau EHY, Wu P, Deng X, Wang J, Hao X, et al. Temporal dynamics in viral shedding and transmissibility of COVID-19. Nature medicine. 2020;26(5):672-5.
+43. Ferretti L, Wymant C, Kendall M, Zhao L, Nurtay A, Abeler-Dörner L, et al. Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing. Science. 2020;368(6491).
+44. Bohmer MM, Buchholz U, Corman VM, Hoch M, Katz K, Marosevic DV, et al. Investigation of a COVID-19 outbreak in Germany resulting from a single travel-associated primary case: a case series. The Lancet Infectious diseases. 2020.
+45. Ganyani T, Kremer C, Chen D, Torneri A, Faes C, Wallinga J, et al. Estimating the generation interval for coronavirus disease (COVID-19) based on symptom onset data, March 2020. Eurosurveillance. 2020;25(17).
+46. Byambasuren O, Cardona M, Bell K, Clark J, McLaws M-L, Glasziou P. Estimating the extent of true asymptomatic COVID-19 and its potential for community transmission: systematic review and meta-analysis. medRxiv. 2020.
+47. Lin YF, Duan Q, Zhou Y, Yuan T, Li P, Fitzpatrick T, et al. Spread and Impact of COVID-19 in China: A Systematic Review and Synthesis of Predictions From Transmission-Dynamic Models. Frontiers in medicine. 2020;7:321.
+48. Liu Y, Gayle AA, Wilder-Smith A, Rocklov J. The reproductive number of COVID-19 is higher compared to SARS coronavirus. Journal of travel medicine. 2020.
+49. Alimohamadi Y, Taghdir M, Sepandi M. Estimate of the Basic Reproduction Number for COVID-19: A Systematic Review and Meta-analysis. Journal of preventive medicine and public health = Yebang Uihakhoe chi. 2020;53(3):151-7.
+50. Wei Y, Wei L, Liu Y, Huang L, Shen S, Zhang R, et al. A systematic review and meta-analysis reveals long and dispersive incubation period of COVID-19. medRxiv. 2020:2020.06.20.20134387.
+51. Yang L, Dai J, Zhao J, Wang Y, Deng P, Wang J. Estimation of incubation period and serial interval of COVID-19: analysis of 178 cases and 131 transmission chains in Hubei province, China. Epidemiology and infection. 2020;148:e117.
+52. Linton MN, Kobayashi T, Yang Y, Hayashi K, Akhmetzhanov RA, Jung S-m, et al. Incubation Period and Other Epidemiological Characteristics of 2019 Novel Coronavirus Infections with Right Truncation: A Statistical Analysis of Publicly Available Case Data. Journal of clinical medicine. 2020.
+53. Lauer SA, Grantz KH, Bi Q, Jones FK, Zheng Q, Meredith HR, et al. The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application. Annals of internal medicine. 2020.
+54. Li Q, Guan X, Wu P, Wang X, Zhou L, Tong Y, et al. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia. The New England journal of medicine. 2020.
+55. McAloon C, Collins Á, Hunt K, Barber A, Byrne AW, Butler F, et al. Incubation period of COVID-19: a rapid systematic review and meta-analysis of observational research. BMJ Open. 2020;10(8):e039652.
+56. Qin J, You C, Lin Q, Hu T, Yu S, Zhou X-H. Estimation of incubation period distribution of COVID-19 using disease onset forward time: A novel cross-sectional and forward follow-up study. Science advances. 2020;6(33):eabc1202-eabc.
+57. Ma S, Zhang J, Zeng M, Yun Q, Guo W, Zheng Y, et al. Epidemiological parameters of coronavirus disease 2019: a pooled analysis of publicly reported individual data of 1155 cases from seven countries. medRxiv. 2020:2020.03.21.20040329.
+58. Böhmer M, Buchholz U, Corman VM, Hoch M, Katz K, Marosevic DV, et al. Outbreak of COVID-19 in Germany resulting from a single travel-associated primary case. Lancet (London, England). 2020.
+59. Nishiura H, Linton NM, Akhmetzhanov AR. Serial interval of novel coronavirus (COVID-19) infections. International Journal of Infectious Diseases. 2020;93:284-6.
+60. Tindale L, Coombe M, Stockdale JE, Garlock E, Lau WYV, Saraswat M, et al. Transmission interval estimates suggest pre-symptomatic spread of COVID-19. MedRxiv. 2020.
+61. Byambasuren O, Cardona M, Bell K, Clark J, McLaws M-L, Glasziou P. Estimating the extent of asymptomatic COVID-19 and its potential for community transmission: systematic review and meta-analysis. medRxiv. 2020:2020.05.10.20097543.
+62. Oran DP, Topol EJ. Prevalence of Asymptomatic SARS-CoV-2 Infection. Annals of internal medicine. 2020;173(5):362-7.
+63. Buitrago-Garcia D, Egli-Gany D, Counotte MJ, Hossmann S, Imeri H, Ipekci AM, et al. Occurrence and transmission potential of asymptomatic and presymptomatic SARS-CoV-2 infections: A living systematic review and meta-analysis. PLoS medicine. 2020;17(9):e1003346.
+64. Takahashi T, Ellingson MK, Wong P, Israelow B, Lucas C, Klein J, et al. Sex differences in immune responses that underlie COVID-19 disease outcomes. Nature. 2020.
+65. Ortolan A, Lorenzin M, Felicetti M, Doria A, Ramonda R. Does gender influence clinical expression and disease outcomes in COVID-19? A systematic review and meta-analysis. International Journal of Infectious Diseases. 2020;99:496-504.
+66. Sutton D, Fuchs K, D'Alton M, Goffman D. Universal Screening for SARS-CoV-2 in Women Admitted for Delivery. The New England journal of medicine. 2020;382(22):2163-4.
+67. Breslin N, Baptiste C, Gyamfi-Bannerman C, Miller R, Martinez R, Bernstein K, et al. COVID-19 infection among asymptomatic and symptomatic pregnant women: Two weeks of confirmed presentations to an affiliated pair of New York City hospitals. Am J Obstet Gynecol MFM. 2020:100118.
+68. Royal College of Midwives, Royal College of Paediatrics and Child Health, Public Health England and Public Health Scotland. Coronavirus (COVID-19) infection and pregnancy. London, UK: Royal College of Midwives, Royal College of Paediatrics and Child Health, Public Health England and Public Health Scotland,; 2020 17.04.2020.
+69. Sardu C, Gambardella J, Morelli MB, Wang X, Marfella R, Santulli G. Hypertension, Thrombosis, Kidney Failure, and Diabetes: Is COVID-19 an Endothelial Disease? A Comprehensive Evaluation of Clinical and Basic Evidence. Journal of clinical medicine. 2020;9(5).
+70. Tang N, Bai H, Chen X, Gong J, Li D, Sun Z. Anticoagulant treatment is associated with decreased mortality in severe coronavirus disease 2019 patients with coagulopathy. Journal of thrombosis and haemostasis : JTH. 2020.
+71. Lechien JR, Chiesa-Estomba CM, De Siati DR, Horoi M, Le Bon SD, Rodriguez A, et al. Olfactory and gustatory dysfunctions as a clinical presentation of mild-to-moderate forms of the coronavirus disease (COVID-19): a multicenter European study. European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery. 2020.
+72. Yan CH, Faraji F, Prajapati DP, Ostrander BT, DeConde AS. Self-reported olfactory loss associates with outpatient clinical course in Covid-19. International forum of allergy &amp; rhinology. 2020.
+73. Tong JY, Wong A, Zhu D, Fastenberg JH, Tham T. The Prevalence of Olfactory and Gustatory Dysfunction in COVID-19 Patients: A Systematic Review and Meta-analysis. Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery. 2020:194599820926473.
+74. Yang X, Yu Y, Xu J, Shu H, Xia J, Liu H, et al. Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study. The Lancet Respiratory medicine. 2020;8(5):475-81.
+75. Grasselli G, Zangrillo A, Zanella A, Antonelli M, Cabrini L, Castelli A, et al. Baseline Characteristics and Outcomes of 1591 Patients Infected with SARS-CoV-2 Admitted to ICUs of the Lombardy Region, Italy. JAMA - Journal of the American Medical Association. 2020;323(16):1574-81.
+76. Rieg S, von Cube M, Kalbhenn J, Utzolino S, Pernice K, Bechet L, et al. COVID-19 in-hospital mortality and mode of death in a dynamic and non-restricted tertiary care model in Germany. medRxiv. 2020:2020.07.22.20160127.
+77. Schenk M. Neurologische Manifestationen: Wie COVID-19 die Nerven tangiert. Dtsch Arztebl International. 2020;117(19):1001-.
+78. Li YC, Bai WZ, Hashikawa T. The neuroinvasive potential of SARS-CoV2 may play a role in the respiratory failure of COVID-19 patients. Journal of medical virology. 2020;92(6):552-5.
+79. Whittaker A, Anson M, Harky A. Neurological Manifestations of COVID-19: A systematic review and current update. Acta neurologica Scandinavica. 2020;142(1):14-22.
+80. Rogers JP, Chesney E, Oliver D, Pollak TA, McGuire P, Fusar-Poli P, et al. Psychiatric and neuropsychiatric presentations associated with severe coronavirus infections: a systematic review and meta-analysis with comparison to the COVID-19 pandemic. The Lancet Psychiatry. 2020;7(7):611-27.
+81. Varatharaj A, Thomas N, Ellul MA, Davies NWS, Pollak TA, Tenorio EL, et al. Neurological and neuropsychiatric complications of COVID-19 in 153 patients: a UK-wide surveillance study. The Lancet Psychiatry. 2020.
+82. Poyiadji N, Shahin G, Noujaim D, Stone M, Patel S, Griffith B. COVID-19-associated Acute Hemorrhagic Necrotizing Encephalopathy: CT and MRI Features. Radiology. 2020:201187.
+83. Moriguchi T, Harii N, Goto J, Harada D, Sugawara H, Takamino J, et al. A first case of meningitis/encephalitis associated with SARS-Coronavirus-2. International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases. 2020;94:55-8.
+84. Zhao H, Shen D, Zhou H, Liu J, Chen S. Guillain-Barré syndrome associated with SARS-CoV-2 infection: causality or coincidence? The Lancet Neurology. 2020;19(5):383-4.
+85. Toscano G, Palmerini F, Ravaglia S, Ruiz L, Invernizzi P, Cuzzoni MG, et al. Guillain-Barre Syndrome Associated with SARS-CoV-2. The New England journal of medicine. 2020.
+86. Scheidl E, Canseco DD, Hadji-Naumov A, Bereznai B. Guillain-Barre syndrome during SARS-CoV-2 pandemic: a case report and review of recent literature. Journal of the peripheral nervous system : JPNS. 2020.
+87. Camdessanche JP, Morel J, Pozzetto B, Paul S, Tholance Y, Botelho-Nevers E. COVID-19 may induce Guillain-Barre syndrome. Rev Neurol (Paris). 2020.
+88. Coen M, Jeanson G, Alejandro Culebras Almeida L, Hübers A, Stierlin F, Najjar I, et al. Guillain-Barré Syndrome as a Complication of SARS-CoV-2 Infection. Brain, behavior, and immunity. 2020.
+89. El Otmani H, El Moutawakil B, Rafai MA, El Benna N, El Kettani C, Soussi M, et al. Covid-19 and Guillain-Barré syndrome: More than a coincidence! Revue Neurologique. 2020.
+90. Virani A, Rabold E, Hanson T, Haag A, Elrufay R, Cheema T, et al. Guillain-Barré Syndrome associated with SARS-CoV-2 infection. IDCases. 2020;20.
+91. Alberti P, Beretta S, Piatti M, Karantzoulis A, Piatti ML, Santoro P, et al. Guillain-Barré syndrome related to COVID-19 infection. Neurology: Neuroimmunology and NeuroInflammation. 2020;7(4).
+92. Padroni M, Mastrangelo V, Asioli GM, Pavolucci L, Abu-Rumeileh S, Piscaglia MG, et al. Guillain-Barré syndrome following COVID-19: new infection, old complication? Journal of Neurology. 2020.
+93. Gutierrez-Ortiz C, Mendez A, Rodrigo-Rey S, San Pedro-Murillo E, Bermejo-Guerrero L, Gordo-Manas R, et al. Miller Fisher Syndrome and polyneuritis cranialis in COVID-19. Neurology. 2020.
+94. Mao R, Qiu Y, He J-S, Tan J-Y, Li X-H, Liang J, et al. Manifestations and prognosis of gastrointestinal and liver involvement in patients with COVID-19: a systematic review and meta-analysis. The Lancet Gastroenterology &amp; Hepatology.
+95. Tian Y, Rong L, Nian W, He Y. Review article: gastrointestinal features in COVID-19 and the possibility of faecal transmission. Alimentary Pharmacology and Therapeutics. 2020;51(9):843-51.
+96. Qiu H, Wu J, Hong L, Luo Y, Song Q, Chen D. Clinical and epidemiological features of 36 children with coronavirus disease 2019 (COVID-19) in Zhejiang, China: an observational cohort study. The Lancet Infectious diseases. 2020;20(6):689-96.
+97. Szekely Y, Lichter Y, Taieb P, Banai A, Hochstadt A, Merdler I, et al. The Spectrum of Cardiac Manifestations in Coronavirus Disease 2019 (COVID-19) - a Systematic Echocardiographic Study. Circulation. 2020.
+98. chen d, Li X, song q, Hu C, Su F, Dai J. Hypokalemia and Clinical Implications in Patients with Coronavirus Disease 2019 (COVID-19). medRxiv. 2020:2020.02.27.20028530.
+99. Huang C, Wang Y, Li X, Ren L, Zhao J, Hu Y, et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet (London, England). 2020.
+100. Puntmann VO, Carerj ML, Wieters I, Fahim M, Arendt C, Hoffmann J, et al. Outcomes of Cardiovascular Magnetic Resonance Imaging in Patients Recently Recovered From Coronavirus Disease 2019 (COVID-19). JAMA Cardiology. 2020.
+101. Driggin E, Madhavan MV, Bikdeli B, Chuich T, Laracy J, Bondi-Zoccai G, et al. Cardiovascular Considerations for Patients, Health Care Workers, and Health Systems During the Coronavirus Disease 2019 (COVID-19) Pandemic. Journal of the American College of Cardiology. 2020.
+102. Long B, Brady WJ, Koyfman A, Gottlieb M. Cardiovascular complications in COVID-19. American Journal of Emergency Medicine. 2020.
+103. Kollias A, Kyriakoulis KG, Dimakakos E, Poulakou G, Stergiou GS, Syrigos K. Thromboembolic risk and anticoagulant therapy in COVID-19 patients: Emerging evidence and call for action. British journal of haematology. 2020.
+104. Zhou B, She J, Wang Y, Ma X. Venous thrombosis and arteriosclerosis obliterans of lower extremities in a very severe patient with 2019 novel coronavirus disease: a case report. Journal of thrombosis and thrombolysis. 2020.
+105. Middeldorp S, Coppens M, van Haaps TF, Foppen M, Vlaar AP, Müller MCA, et al. Incidence of venous thromboembolism in hospitalized patients with COVID-19. Journal of thrombosis and haemostasis : JTH. 2020.
+106. Beun R, Kusadasi N, Sikma M, Westerink J, Huisman A. Thromboembolic events and apparent heparin resistance in patients infected with SARS-CoV-2. International journal of laboratory hematology. 2020.
+107. Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, et al. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet (London, England). 2020;395(10229):1054-62.
+108. Cummings MJ, Baldwin MR, Abrams D, Jacobson SD, Meyer BJ, Balough EM, et al. Epidemiology, clinical course, and outcomes of critically ill adults with COVID-19 in New York City: a prospective cohort study. Lancet (London, England). 2020.
+109. Hirsch JS, Ng JH, Ross DW, Sharma P, Shah HH, Barnett RL, et al. Acute kidney injury in patients hospitalized with COVID-19. Kidney International. 2020.
+110. Wang D, Hu B, Hu C, Zhu F, Liu X, Zhang J, et al. Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China. Jama. 2020.
+111. Diao B, Feng Z, Wang C, Wang H, Liu L, Wang C, et al. Human Kidney is a Target for Novel Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) Infection. MedRxiv. 2020.
+112. Cheng Y, Luo R, Wang K, Zhang M, Wang Z, Dong L, et al. Kidney disease is associated with in-hospital death of patients with COVID-19. Kidney Int. 2020;97(5):829-38.
+113. Chen T, Wu D, Chen H, Yan W, Yang D, Chen G, et al. Clinical characteristics of 113 deceased patients with coronavirus disease 2019: Retrospective study. The BMJ. 2020;368.
+114. Karagiannidis C, Mostert C, Hentschker C, Voshaar T, Malzahn J, Schillinger G, et al. Case characteristics, resource use, and outcomes of 10 021 patients with COVID-19 admitted to 920 German hospitals: an observational study. The Lancet Respiratory Medicine. 2020.
+115. Mazzotta F, Troccoli T. Acute acro-ischemia in the child at the time of COVID-19. European Journal Of Pediatric Dermatology - pd online, Monday's case. 2020:4.
+116. Estebanez A, Perez-Santiago L, Silva E, Guillen-Climent S, Garcia-Vazquez A, Ramon MD. Cutaneous manifestations in COVID-19: a new contribution. J Eur Acad Dermatol Venereol. 2020.
+117. Recalcati S. Cutaneous manifestations in COVID-19: a first perspective. Journal of the European Academy of Dermatology and Venereology. 2020.
+118. Marzano AV, Genovese G, Fabbrocini G, Pigatto P, Monfrecola G, Piraccini BM, et al. Varicella-like exanthem as a specific COVID-19-associated skin manifestation: multicenter case series of 22 patients. Journal of the American Academy of Dermatology. 2020.
+119. Henry D, Ackerman M, Sancelme E, Finon A, Esteve E. Urticarial eruption in COVID-19 infection. J Eur Acad Dermatol Venereol. 2020.
+120. Piccolo V, Neri I, Filippeschi C, Oranges T, Argenziano G, Battarra VC, et al. Chilblain-like lesions during COVID-19 epidemic: a preliminary study on 63 patients. J Eur Acad Dermatol Venereol. 2020.
+121. Landa N, Mendieta-Eckert M, Fonda-Pascual P, Aguirre T. Chilblain-like lesions on feet and hands during the COVID-19 Pandemic. International journal of dermatology. 2020.
+122. Kolivras A, Dehavay F, Delplace D, Feoli F, Meiers I, Milone L, et al. Coronavirus (COVID-19) infection-induced chilblains: a case report with histopathological findings. JAAD Case Reports. 2020.
+123. Alramthan A, Aldaraji W. A case of COVID-19 presenting in clinical picture resembling chilblains disease. First report from the Middle East. Clinical and experimental dermatology. 2020.
+124. Xia W, Shao J, Guo Y, Peng X, Li Z, Hu D. Clinical and CT features in pediatric patients with COVID‐19 infection: Different points from adults. Pediatric pulmonology. 2020.
+125. Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, et al. Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet (London, England). 2020.
+126. Yang X, Yu Y, Xu J, Shu H, Xia Ja, Liu H, et al. Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study. The Lancet Respiratory Medicine. 2020.
+127. Zhang JJ, Dong X, Cao YY, Yuan YD, Yang YB, Yan YQ, et al. Clinical characteristics of 140 patients infected with SARS-CoV-2 in Wuhan, China. Allergy: European Journal of Allergy and Clinical Immunology. 2020.
+128. Lippi G, Plebani M. Procalcitonin in patients with severe coronavirus disease 2019 (COVID-19): a meta-analysis. Clinica chimica acta; international journal of clinical chemistry. 2020.
+129. Lai C-C, Wang C-Y, Hsueh P-R. Co-infections among patients with COVID-19: the need for combination therapy with non-anti-SARS-CoV-2 agents? Journal of Microbiology, Immunology and Infection. 2020.
+130. Carfì A, Bernabei R, Landi F, for the Gemelli Against C-P-ACSG. Persistent Symptoms in Patients After Acute COVID-19. Jama. 2020.
+131. Spector T, NHS, ZOE. COVID 19 Symptoms Study UK 2020 [Available from: https://covid.joinzoe.com/.
+132. Puntmann VO, Carerj ML, Wieters I, Fahim M, Arendt C, Hoffmann J, et al. Outcomes of Cardiovascular Magnetic Resonance Imaging in Patients Recently Recovered From Coronavirus Disease 2019 (COVID-19). JAMA Cardiol. 2020.
+133. Mahase E. Long covid could be four different syndromes, review suggests. BMJ (Clinical research ed). 2020;371:m3981.
+134. Research NIfH. Living with Covid19 2020 [updated 15.10.2020. Available from: https://evidence.nihr.ac.uk/themedreview/living-with-covid19/.
+135. Böhmer MM, Buchholz U, Corman VM, Hoch M, Katz K, Marosevic DV, et al. Investigation of a COVID-19 outbreak in Germany resulting from a single travel-associated primary case: a case series. The Lancet Infectious Diseases. 2020;20(8):920-8.
+136. He X, Lau EHY, Wu P, Deng X, Wang J, Hao X, et al. Temporal dynamics in viral shedding and transmissibility of COVID-19. Nature medicine. 2020;26(5):672-5.
+137. He X, Lau EHY, Wu P, Deng X, Wang J, Hao X, et al. Author Correction: Temporal dynamics in viral shedding and transmissibility of COVID-19. Nature medicine. 2020;26(9):1491-3.
+138. Wölfel R, Corman VM, Guggemos W, Seilmaier M, Zange S, Müller MA, et al. Virological assessment of hospitalized patients with COVID-2019. Nature. 2020.
+139. Arons MM, Hatfield KM, Reddy SC, Kimball A, James A, Jacobs JR, et al. Presymptomatic SARS-CoV-2 Infections and Transmission in a Skilled Nursing Facility. The New England journal of medicine. 2020.
+140. Xia W, Liao J, Li C, Li Y, Qian X, Sun X, et al. Transmission of corona virus disease 2019 during the incubation period may lead to a quarantine loophole. MedRxiv. 2020.
+141. Kampen JJAv, Vijver DAMCvd, Fraaij PLA, Haagmans BL, Lamers MM, Okba N, et al. Shedding of infectious virus in hospitalized patients with coronavirus disease-2019 (COVID-19): duration and key determinants. medrxiv. 2020:10.1101.
+142. Wölfel R, Corman VM, Guggemos W, Seilmaier M, Zange S, Müller MA, et al. Virological assessment of hospitalized patients with COVID-2019. Nature. 2020;581(7809):465-9.
+143. Arons MM, Hatfield KM, Reddy SC, Kimball A, James A, Jacobs JR, et al. Presymptomatic SARS-CoV-2 Infections and Transmission in a Skilled Nursing Facility. The New England journal of medicine. 2020;382(22):2081-90.
+144. Kujawski SA, Wong KK, Collins JP, Epstein L, Killerby ME, Midgley CM, et al. Clinical and virologic characteristics of the first 12 patients with coronavirus disease 2019 (COVID-19) in the United States. Nature medicine. 2020.
+145. Bullard J, Dust K, Funk D, Strong JE, Alexander D, Garnett L, et al. Predicting infectious SARS-CoV-2 from diagnostic samples. Clinical infectious diseases : an official publication of the Infectious Diseases Society of America. 2020.
+146. National, Centre for Infectious Diseases and Chapter of Infectious Disease Physicians / Academy of Medicine in Singapore Position Statement: Period of Infectivity to Inform Strategies for De-isolation for COVID-19 Patients 2020 [Available from: https://www.ams.edu.sg/view-pdf.aspx?file=media%5C5556_fi_331.pdf&amp;ofile=Period+of+Infectivity+Position+Statement+(final)+23-5-20+(logos).pdf.
+147. Liu W-D, Chang S-Y, Wang J-T, Tsai M-J, Hung C-C, Hsu C-L, et al. Prolonged virus shedding even after seroconversion in a patient with COVID-19. The Journal of infection. 2020;81(2):318-56.
+148. Zheng S, Fan J, Yu F, Feng B, Lou B, Zou Q, et al. Viral load dynamics and disease severity in patients infected with SARS-CoV-2 in Zhejiang province, China, January-March 2020: retrospective cohort study. BMJ (Clinical research ed). 2020;369:m1443.
+149. Korea, Centers for Disease Control and Prevention. Findings from investigation and analysis of re-positive cases 2020 [Available from: https://www.cdc.go.kr/board/board.es?mid=&amp;bid=0030&amp;act=view&amp;list_no=367267&amp;nPage=1.
+150. Bullard J, Dust K, Funk D, Strong JE, Alexander D, Garnett L, et al. Predicting infectious SARS-CoV-2 from diagnostic samples. Clinical infectious diseases : an official publication of the Infectious Diseases Society of America. 2020.
+151. He X, Lau EHY, Wu P, Deng X, Wang J, Hao X, et al. Temporal dynamics in viral shedding and transmissibility of COVID-19. Nature medicine. 2020.
+152. Singanayagam A, Patel M, Charlett A, Lopez Bernal J, Saliba V, Ellis J, et al. Duration of infectiousness and correlation with RT-PCR cycle threshold values in cases of COVID-19, England, January to May 2020. Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin. 2020;25(32).
+153. Xu K, Chen Y, Yuan J, Yi P, Ding C, Wu W, et al. Factors associated with prolonged viral RNA shedding in patients with COVID-19. Clinical infectious diseases : an official publication of the Infectious Diseases Society of America. 2020.
+154. Zheng S, Fan J, Yu F, Feng B, Lou B, Zou Q, et al. Viral load dynamics and disease severity in patients infected with SARS-CoV-2 in Zhejiang province, China, January-March 2020: retrospective cohort study. BMJ (Clinical research ed). 2020;369:m1443-m.
+155. Ruehe B OD, Nitsche A, Haas W, Stoliaroff-Pepin A, Eckmanns T, Abu Sin M, van der Toorn W, Jenny M, Mielke M, Herzog C, Wieler LH. Abwägung der Dauer von Quarantäne und Isolierung bei COVID-19. Epidemiologisches Bulletin. 2020;39:3-11.
+156. Chen J, Qi T, Liu L, Ling Y, Qian Z, Li T, et al. Clinical progression of patients with COVID-19 in Shanghai, China. Journal of Infection. 2020;80(5):e1-e6.
+157. Docherty AB, Harrison EM, Green CA, Hardwick HE, Pius R, Norman L, et al. Features of 20 133 UK patients in hospital with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: prospective observational cohort study. BMJ (Clinical research ed). 2020;369:m1985.
+158. Dreher M, Kersten A, Bickenbach J, Balfanz P, Hartmann B, Cornelissen C, et al. Charakteristik von 50 hospitalisierten COVID-19-Patienten mit und ohne ARDS. Dtsch Arztebl International. 2020;117(16):271-8.
+159. Li X, Ma X. Acute respiratory failure in COVID-19: is it “typical” ARDS? Critical Care. 2020;24(1):198.
+160. ISARIC. International Severe Acute Respiratory and EmergingInfections Consortium COVID-19 Report: 13 July 2020. 2020 02.09.2020.
+161. Tolksdorf K, Buda S, Schuler E, Wieler LH, Haas W. Eine höhere Letalität und lange Beatmungsdauer unterscheiden COVID-19 von schwer verlaufenden Atemwegsinfektionen in Grippewellen. 2020(41):3-10.
+162. Verity R, Okell LC, Dorigatti I, Winskill P, Whittaker C, Imai N, et al. Estimates of the severity of coronavirus disease 2019: a model-based analysis. The Lancet Infectious Diseases. 2020;20(6):669-77.
+163. Khalili M, Karamouzian M, Nasiri N, Javadi S, Mirzazadeh A, Sharifi H. Epidemiological Characteristics of COVID-19: A Systemic Review and Meta-Analysis. medRxiv. 2020:2020.04.01.20050138.
+164. Richardson S, Hirsch JS, Narasimhan M, Crawford JM, McGinn T, Davidson KW, et al. Presenting Characteristics, Comorbidities, and Outcomes Among 5700 Patients Hospitalized With COVID-19 in the New York City Area. Jama. 2020.
+165. Schilling J, Diercke M, Altmann D, Haas W, Buda S. Vorläufige Bewertung der Krankheitsschwere von COVID-19 in Deutschland basierend auf übermittelten Fällen gemäß Infektionsschutzgesetz. Epidemiologisches Bulletin. 2020;17:3-9.
+166. King C, Sahjwani D, Brown AW, Feroz S, Cameron P, Osborn E, et al. Outcomes of Mechanically Ventilated Patients with COVID-19 Associated Respiratory Failure. medRxiv. 2020:2020.07.16.20155580.
+167. Potere N, Valeriani E, Candeloro M, Tana M, Porreca E, Abbate A, et al. Acute complications and mortality in hospitalized patients with coronavirus disease 2019: a systematic review and meta-analysis. Critical Care. 2020;24(1):389.
+168. Petersen E, Koopmans M, Go U, Hamer DH, Petrosillo N, Castelli F, et al. Comparing SARS-CoV-2 with SARS-CoV and influenza pandemics. The Lancet Infectious diseases. 2020;20(9):e238-e44.
+169. Cummings MJ, Baldwin MR, Abrams D, Jacobson SD, Meyer BJ, Balough EM, et al. Epidemiology, clinical course, and outcomes of critically ill adults with COVID-19 in New York City: a prospective cohort study. Lancet (London, England). 2020.
+170. The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team. Vital Surveillances: The Epidemiological Characteristics of an Outbreak of 2019 Novel Coronavirus Diseases (COVID-19) — China, 2020. China CDC Weekly 2020. 2020.
+171. Cunningham JW, Vaduganathan M, Claggett BL, Jering KS, Bhatt AS, Rosenthal N, et al. Clinical Outcomes in Young US Adults Hospitalized With COVID-19. JAMA internal medicine. 2020.
+172. Vardavas CI, Nikitara K. COVID-19 and smoking: A systematic review of the evidence. Tobacco induced diseases. 2020;18:20.
+173. Adams SH, Park MJ, Schaub JP, Brindis CD, Irwin CE, Jr. Medical Vulnerability of Young Adults to Severe COVID-19 Illness&amp;#x2014;Data From the National Health Interview Survey. Journal of Adolescent Health. 2020;67(3):362-8.
+174. Williamson EJ, Walker AJ, Bhaskaran K, Bacon S, Bates C, Morton CE, et al. OpenSAFELY: factors associated with COVID-19 death in 17 million patients. Nature. 2020.
+175. Nguyen LH, Drew DA, Graham MS, Joshi AD, Guo C-G, Ma W, et al. Risk of COVID-19 among front-line health-care workers and the general community: a prospective cohort study. The Lancet Public Health.
+176. Lavezzo E, Franchin E, Ciavarella C, Cuomo-Dannenburg G, Barzon L, Del Vecchio C, et al. Suppression of a SARS-CoV-2 outbreak in the Italian municipality of Vo’. Nature. 2020.
+177. Tagarro A, Epalza C, Santos M, Sanz-Santaeufemia FJ, Otheo E, Moraleda C, et al. Screening and Severity of Coronavirus Disease 2019 (COVID-19) in Children in Madrid, Spain. JAMA pediatrics. 2020.
+178. Gudbjartsson DF, Helgason A, Jonsson H, Magnusson OT, Melsted P, Norddahl GL, et al. Spread of SARS-CoV-2 in the Icelandic Population. The New England journal of medicine. 2020.
+179. Levy C, Basmaci R, Bensaid P, Bru CB, Coinde E, Dessioux E, et al. Changes in RT-PCR-positive SARS-CoV-2 rates in adults and children according to the epidemic stages. medRxiv. 2020.
+180. Bellino S, Punzo O, Rota MC, Del Manso M, Urdiales AM, Andrianou X, et al. COVID-19 Disease Severity Risk Factors for Pediatric Patients in Italy. Pediatrics. 2020:e2020009399.
+181. Bendavid E, Mulaney B, Sood N, Shah S, Ling E, Bromley-Dulfano R, et al. COVID-19 Antibody Seroprevalence in Santa Clara County, California. MedRxiv. 2020.
+182. Streeck H, Schulte B, Kuemmerer B, Richter E, Hoeller T, Fuhrmann C, et al. Infection fatality rate of SARS-CoV-2 infection in a German community with a super-spreading event. medrxiv. 2020:10.1101.
+183. Fontanet A, Grant R, Tondeur L, Madec Y, Grzelak L, Cailleau I, et al. SARS-CoV-2 infection in primary schools in northern France: A retrospective cohort study in an area of high transmission. medRxiv. 2020:2020.06.25.20140178.
+184. Armann JP, Unrath M, Kirsten C, Lueck C, Dalpke A, Berner R. Anti-SARS-CoV-2 IgG antibodies in adolescent students and their teachers in Saxony, Germany (SchoolCoviDD19): very low seropraevalence and transmission rates. medRxiv. 2020:2020.07.16.20155143.
+185. Debatin K-M, Henneke P, Hoffman G, Kräusslich H-G, Renk H. Prevalence of COVID-19 in children in Baden-Württemberg - Preliminary study report. 2020.
+186. Stringhini S, Wisniak A, Piumatti G, Azman AS, Lauer SA, Baysson H, et al. Seroprevalence of anti-SARS-CoV-2 IgG antibodies in Geneva, Switzerland (SEROCoV-POP): a population-based study. The Lancet. 2020.
+187. Pollán M, Pérez-Gómez B, Pastor-Barriuso R, Oteo J, Hernán MA, Pérez-Olmeda M, et al. Prevalence of SARS-CoV-2 in Spain (ENE-COVID): a nationwide, population-based seroepidemiological study. The Lancet.
+188. Knabl L, Mitra T, Kimpel J, Roessler A, Volland A, Walser A, et al. High SARS-CoV-2 Seroprevalence in Children and Adults in the Austrian Ski Resort Ischgl. medRxiv. 2020:10.1101.
+189. Li W, Zhang B, Lu J, Liu S, Chang Z, Cao P, et al. The characteristics of household transmission of COVID-19. Clinical infectious diseases : an official publication of the Infectious Diseases Society of America. 2020.
+190. Zhang J, Litvinova M, Liang Y, Wang Y, Wang W, Zhao S, et al. Changes in contact patterns shape the dynamics of the COVID-19 outbreak in China. Science. 2020.
+191. Jing Q-L, Liu M-J, Zhang Z-B, Fang L-Q, Yuan J, Zhang A-R, et al. Household secondary attack rate of COVID-19 and associated determinants in Guangzhou, China: a retrospective cohort study. The Lancet Infectious Diseases. 2020.
+192. Dattner I, Goldberg Y, Katriel G, Yaari R, Gal N, Miron Y, et al. The role of children in the spread of COVID-19: Using household data from Bnei Brak, Israel, to estimate the relative susceptibility and infectivity of children. medRxiv. 2020:2020.06.03.20121145.
+193. Madewell Z, Yang Y, Longini I, Halloran E, Dean N. Household transmission of SARS-CoV-2: a systematic review and meta-analysis of secondary attack rate. medRxiv2020.
+194. Bi Q, Wu Y, Mei S, Ye C, Zou X, Zhang Z, et al. Epidemiology and transmission of COVID-19 in 391 cases and 1286 of their close contacts in Shenzhen, China: a retrospective cohort study. The Lancet Infectious Diseases. 2020.
+195. Park YJ, Choe YJ, Park O, Park SY, Kim Y-M, Kim J, et al. Contact Tracing during Coronavirus Disease Outbreak, South Korea, 2020. Emerging Infectious Disease journal. 2020;26(10).
+196. Jones TC, Mühlemann B, Veith T, Zuchowski M, Hofmann J, Stein A, et al. An analysis of SARS-CoV-2 viral load by patient age. reddit preprint. 2020.
+197. Jacot D, Greub G, Jaton K, Opota O. Viral load of SARS-CoV-2 across patients and compared to other respiratory viruses. Microbes and infection. 2020.
+198. L’Huillier A, Torriani G, Pigny F, Kaiser L, Eckerle I. Culture-Competent SARS-CoV-2 in Nasopharynx of Symptomatic Neonates, Children, and Adolescents. Emerging Infectious Disease journal. 2020;26(10).
+199. Patel NA. Pediatric COVID-19: Systematic review of the literature. American Journal of Otolaryngology. 2020;41(5):102573.
+200. (RKI) RK-I. Quartalsberichtbericht der Corona-KiTa-Studie - 1. Quartalsbericht (III/2020). 2020.
+201. Hurst JH, Heston SM, Chambers HN, Cunningham HM, Price MJ, Suarez L, et al. SARS-CoV-2 Infections Among Children in the Biospecimens from Respiratory Virus-Exposed Kids (BRAVE Kids) Study. medRxiv. 2020:10.1101.
+202. Waterfield T, Watson C, Moore R, Ferris K, Tonry C, Watt AP, et al. Seroprevalence of SARS-CoV-2 antibodies in children - A prospective multicentre cohort study. medRxiv.
+203. Tian Y, Rong L, Nian W, He Y. Review article: gastrointestinal features in COVID-19 and the possibility of faecal transmission. Alimentary pharmacology &amp; therapeutics. 2020;51(9):843-51.
+204. Zhen-Dong Y, Gao-Jun Z, Run-Ming J, Zhi-Sheng L, Zong-Qi D, Xiong X, et al. Clinical and Transmission Dynamics Characteristics of 406 Children with Coronavirus Disease 2019 in China: A Review. Journal of Infection. 2020.
+205. Otte im Kampe E, Lehfeld A-S, Buda S, Buchholz U, Haas W. Surveillance of COVID-19 school outbreaks, Germany, March to August 2020. Eurosurveillance. 2020;25(38):2001645.
+206. Ludvigsson JF. Systematic review of COVID-19 in children shows milder cases and a better prognosis than adults. Acta Paediatrica, International Journal of Paediatrics. 2020.
+207. Götzinger F, Santiago-García B, Noguera-Julián A, Lanaspa M, Lancella L, Calò Carducci FI, et al. COVID-19 in children and adolescents in Europe: a multinational, multicentre cohort study. The Lancet Child &amp; Adolescent Health. 2020.
+208. Armann JP, Simon A, Diffloth N, Doenhardt M, Hufnagel M, Trotter A, et al. Hospitalisierungen von Kindern und Jugendlichen mit COVID-19. Dtsch Arztebl International. 2020;117(21):373-4.
+209. Dong Y, Mo X, Hu Y, Qi X, Jiang F, Jiang Z, et al. Epidemiological Characteristics of 2143 Pediatric Patients With 2019 Coronavirus Disease in China. Pediatrics. 2020.
+210. Team CC-R. Coronavirus Disease 2019 in Children - United States, February 12-April 2, 2020. MMWR Morbidity and mortality weekly report. 2020;69(14):422-6.
+211. Streng A, Hartmann K, Armann J, Berner R, Liese J. COVID-19 bei hospitalisierten Kindern und Jugendlichen: Ein systematischer Review zu publizierten Fallserien (Stand 31.03. 2020) und erste Daten aus Deutschland. Monatsschrift Kinderheilkunde.1.
+212. Ong JS, Tosoni A, Kim Y, Kissoon N, Murthy S. Coronavirus Disease 2019 in Critically Ill Children: A Narrative Review of the Literature. Pediatric Critical Care Medicine. 2020.
+213. European Centre for Disease Prevention and Control (ECDC). Rapid risk assessment: Paediatric inflammatory multisystem syndrome and SARS -CoV-2 infection in children [webpage]. European Centre for Disease Prevention and Control (ECDC),; 2020 [updated 15.05.2020. Available from: https://www.ecdc.europa.eu/en/publications-data/paediatric-inflammatory-multisystem-syndrome-and-sars-cov-2-rapid-risk-assessment.
+214. ECDC. Paediatric inflammatory multisystem syndrome and SARS-CoV-2 infection in children. ECDC; 2020.
+215. Dufort EM, Koumans EH, Chow EJ, Rosenthal EM, Muse A, Rowlands J, et al. Multisystem Inflammatory Syndrome in Children in New York State. New England Journal of Medicine. 2020.
+216. Feldstein LR, Rose EB, Horwitz SM, Collins JP, Newhams MM, Son MBF, et al. Multisystem Inflammatory Syndrome in U.S. Children and Adolescents. New England Journal of Medicine. 2020.
+217. Kellam P, Barclay W. The dynamics of humoral immune responses following SARS-CoV-2 infection and the potential for reinfection. The Journal of general virology. 2020.
+218. To KK-W, Tsang OT-Y, Leung W-S, Tam AR, Wu T-C, Lung DC, et al. Temporal profiles of viral load in posterior oropharyngeal saliva samples and serum antibody responses during infection by SARS-CoV-2: an observational cohort study. The Lancet Infectious Diseases. 2020.
+219. Okba NMA, Müller MA, Li W, Wang C, GeurtsvanKessel CH, Corman VM, et al. Severe Acute Respiratory Syndrome Coronavirus 2-Specific Antibody Responses in Coronavirus Disease 2019 Patients. Emerging infectious diseases. 2020;26(7).
+220. Zhao J, Yuan Q, Wang H, Liu W, Liao X, Su Y, et al. Antibody responses to SARS-CoV-2 in patients of novel coronavirus disease 2019. Clinical Infectious Diseases. 2020.
+221. Anderson DE, Tan CW, Chia WN, Young BE, Linster M, Low JH, et al. Lack of cross-neutralization by SARS patient sera towards SARS-CoV-2. Emerging microbes &amp; infections. 2020;9(1):900-2.
+222. Perera RA, Mok CK, Tsang OT, Lv H, Ko RL, Wu NC, et al. Serological assays for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), March 2020. Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin. 2020;25(16).
+223. Haveri A, Smura T, Kuivanen S, Österlund P, Hepojoki J, Ikonen N, et al. Serological and molecular findings during SARS-CoV-2 infection: the first case study in Finland, January to February 2020. Eurosurveillance. 2020;25(11).
+224. Wu F, Wang A, Liu M, Wang Q, Chen J, Xia S, et al. Neutralizing Antibody Responses to SARS-CoV-2 in a COVID-19 Recovered Patient Cohort and Their Implications. MedRxiv. 2020.
+225. Amanat F, Stadlbauer D, Strohmeier S, Nguyen THO, Chromikova V, McMahon M, et al. A serological assay to detect SARS-CoV-2 seroconversion in humans. Nature medicine. 2020.
+226. Payne DC, Smith-Jeffcoat SE, Nowak G, Chukwuma U, Geibe JR, Hawkins RJ, et al. SARS-CoV-2 Infections and Serologic Responses from a Sample of U.S. Navy Service Members - USS Theodore Roosevelt, April 2020. MMWR Morbidity and mortality weekly report. 2020;69(23):714-21.
+227. Li T, Xie J, He Y, Fan H, Baril L, Qiu Z, et al. Long-term persistence of robust antibody and cytotoxic T cell responses in recovered patients infected with SARS coronavirus. PloS one. 2006;1(1).
+228. Cao Z, Liu L, Du L, Zhang C, Jiang S, Li T, et al. Potent and persistent antibody responses against the receptor-binding domain of SARS-CoV spike protein in recovered patients. Virology Journal. 2010;7(1):299.
+229. Payne DC, Iblan I, Rha B, Alqasrawi S, Haddadin A, Al Nsour M, et al. Persistence of antibodies against Middle East respiratory syndrome coronavirus. Emerging infectious diseases. 2016;22(10):1824.
+230. European Centre for Disease Prevention and Control (ECDC). Coronavirus disease 2019 (COVID-19) pandemic: increased transmission in the EU/EEA and the UK – seventh update. European Centre for Disease Prevention and Control (ECDC),; 2020 25.03.2020. Report No.: 7.
+231. Ferguson NM, Laydon D, Nedjati-Gilani G, Imai N, Ainslie K, Baguelin M, et al. Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. 2020:20.
+232. Ng O-W, Chia A, Tan AT, Jadi RS, Leong HN, Bertoletti A, et al. Memory T cell responses targeting the SARS coronavirus persist up to 11 years post-infection. Vaccine. 2016;34(17):2008-14.
+233. Tang F, Quan Y, Xin Z-T, Wrammert J, Ma M-J, Lv H, et al. Lack of Peripheral Memory B Cell Responses in Recovered Patients with Severe Acute Respiratory Syndrome: A Six-Year Follow-Up Study. The Journal of Immunology. 2011;186(12):7264-8.
+234. Braun J, Loyal L, Frentsch M, Wendisch D, Georg P, Kurth F, et al. SARS-CoV-2-reactive T cells in healthy donors and patients with COVID-19. Nature. 2020.
+235. Braun J, Loyal L, Frentsch M, Wendisch D, Georg P, Kurth F, et al. Presence of SARS-CoV-2 reactive T cells in COVID-19 patients and healthy donors. medrxiv. 2020:10.1101.
+236. Anft M, Paniskaki K, Blazquez-Navarro A, Doevelaar AAN, Seibert F, Hoelzer B, et al. COVID-19 progression is potentially driven by T cell immunopathogenesis. medRxiv. 2020:2020.04.28.20083089.
+237. Grifoni A, Weiskopf D, Ramirez SI, Mateus J, Dan JM, Moderbacher CR, et al. Targets of T Cell Responses to SARS-CoV-2 Coronavirus in Humans with COVID-19 Disease and Unexposed Individuals. Cell. 2020.
+238. Bert NL, Tan AT, Kunasegaran K, Tham CYL, Hafezi M, Chia A, et al. Different pattern of pre-existing SARS-COV-2 specific T cell immunity in SARS-recovered and uninfected individuals. BioRxiv. 2020.
+239. Ni L, Ye F, Cheng ML, Feng Y, Deng YQ, Zhao H, et al. Detection of SARS-CoV-2-Specific Humoral and Cellular Immunity in COVID-19 Convalescent Individuals. Immunity. 2020.
+240. Sekine T, Perez-Potti A, Rivera-Ballesteros O, Strålin K, Gorin J-B, Olsson A, et al. Robust T cell immunity in convalescent individuals with asymptomatic or mild COVID-19. Cell. 2020.
+241. To KK, Hung IF, Ip JD, Chu AW, Chan WM, Tam AR, et al. COVID-19 re-infection by a phylogenetically distinct SARS-coronavirus-2 strain confirmed by whole genome sequencing. Clinical infectious diseases : an official publication of the Infectious Diseases Society of America. 2020.
+242. Van Elslande J, Vermeersch P, Vandervoort K, Wawina-Bokalanga T, Vanmechelen B, Wollants E, et al. Symptomatic SARS-CoV-2 reinfection by a phylogenetically distinct strain. Clinical infectious diseases : an official publication of the Infectious Diseases Society of America. 2020.
+243. Gupta V, Bhoyar, R. C., Jain. Asymptomatic reinfection in two healthcare workers from India with genetically distinct SARS-CoV-2 2020 [updated 15.09.2020. Available from: https://doi.org/10.31219/osf.io/4fmrg.
+244. Prado-Vivar BB-W, M Guadalupe,J . (September 3, 2020). Available at SSRN: https://ssrn.com/abstract=3686174 or http://dx.doi.org/10.2139/ssrn.3686174 COVID-19 Re-Infection by a Phylogenetically Distinct SARS-CoV-2 Variant, First Confirmed Event in South America 2020 [updated September 3, 2020. Available from: https://ssrn.com/abstract=3686174.
+245. Goldman JD, Wang K, Roltgen K, Nielsen SCA, Roach JC, Naccache SN, et al. Reinfection with SARS-CoV-2 and Failure of Humoral Immunity: a case report. medRxiv. 2020:2020.09.22.20192443.
+246. Larson D, Brodniak SL, Voegtly LJ, Cer RZ, Glang LA, Malagon FJ, et al. A Case of Early Re-infection with SARS-CoV-2. Clinical Infectious Diseases. 2020.
+247. Tillett RL, Sevinsky JR, Hartley PD, Kerwin H, Crawford N, Gorzalski A, et al. Genomic evidence for reinfection with SARS-CoV-2: a case study. The Lancet Infectious Diseases.
+248. Kaneko N, Kuo H-H, Boucau J, Farmer JR, Allard-Chamard H, Mahajan VS, et al. Loss of Bcl-6-expressing T follicular helper cells and germinal centers in COVID-19. Cell. 2020.
+249. Golden JW, Cline CR, Zeng X, Garrison AR, Carey BD, Mucker EM, et al. Human angiotensin-converting enzyme 2 transgenic mice infected with SARS-CoV-2 develop severe and fatal respiratory disease. JCI insight. 2020.
+250. Takahashi T, Ellingson MK, Wong P, Israelow B, Lucas C, Klein J, et al. Sex differences in immune responses that underlie COVID-19 disease outcomes. Nature. 2020.
+251. WHO. DRAFT landscape of COVID-19 candidate vaccines 2020 [Available from: https://www.who.int/who-documents-detail/draft-landscape-of-covid-19-candidate-vaccines 
+252. Lloyd-Smith JO, Schreiber SJ, Kopp PE, Getz WM. Superspreading and the effect of individual variation on disease emergence. Nature. 2005;438(7066):355-9.
+253. Edwards DA, Man JC, Brand P, Katstra JP, Sommerer K, Stone HA, et al. Inhaling to mitigate exhaled bioaerosols. Proceedings of the National Academy of Sciences of the United States of America. 2004;101(50):17383.
+254. Asadi S, Wexler AS, Cappa CD, Barreda S, Bouvier NM, Ristenpart WD. Aerosol emission and superemission during human speech increase with voice loudness. Scientific Reports. 2019;9(1):2348.
+255. Mürbe D, Fleischer M, Lange J, Rotheudt H, Kriegel M. Erhöhung der Aerosolbildung beim professionellen Singen. 2020.
+256. Hartmann A, Mürbe D, Kriegel M, Lange J, Fleischer M. Risikobewertung von Probenräumen für Chöre hinsichtlich virenbeladenen Aerosolen. 2020.
+257. Arnedo-Pena A, Sabater-Vidal S, Meseguer-Ferrer N, Pac-Sa MR, Mañes-Flor P, Gascó-Laborda JC, et al. COVID-19 secondary attack rate and risk factors in household contacts in Castellon (Spain): Preliminary report.
+258. Cheng HY, Jian SW, Liu DP, Ng TC, Huang WT, Lin HH. Contact Tracing Assessment of COVID-19 Transmission Dynamics in Taiwan and Risk at Different Exposure Periods Before and After Symptom Onset. JAMA internal medicine. 2020.
+259. (CDC) CfDCaP. Update: outbreak of severe acute respiratory syndrome--worldwide, 2003. MMWR Morbidity and mortality weekly report. 2003;52(13):269-72.
+260. Yu ITS, Li Y, Wong TW, Tam W, Chan AT, Lee JHW, et al. Evidence of Airborne Transmission of the Severe Acute Respiratory Syndrome Virus. New England Journal of Medicine. 2004;350(17):1731-9.
+261. Bae S, Kim H, Jung TY, Lim JA, Jo DH, Kang GS, et al. Epidemiological Characteristics of COVID-19 Outbreak at Fitness Centers in Cheonan, Korea. Journal of Korean medical science. 2020;35(31):e288.
+262. Kumar S, Jha S, Rai SK. Significance of super spreader events in COVID-19. Indian journal of public health. 2020;64(Supplement):S139-s41.
+263. Shim E, Tariq A, Choi W, Lee Y, Chowell G. Transmission potential and severity of COVID-19 in South Korea. International Journal of Infectious Diseases. 2020;93:339-44.
+264. Dyal JW GM, Broadwater K, et al. COVID-19 Among Workers in Meat and Poultry Processing Facilities ― 19 States, April 2020 2020 [Available from: https://www.cdc.gov/mmwr/volumes/69/wr/mm6918e3.htm?s_cid=mm6918e3_w.
+265. Shen Y, Li C, Dong H, Wang Z, Martinez L, Sun Z, et al. Community Outbreak Investigation of SARS-CoV-2 Transmission Among Bus Riders in Eastern China. JAMA internal medicine. 2020.
+266. Szablewski CM, Chang KT, Brown MM, Chu VT, Yousaf AR, Anyalechi N, et al. SARS-CoV-2 Transmission and Infection Among Attendees of an Overnight Camp - Georgia, June 2020. MMWR Morbidity and mortality weekly report. 2020;69(31):1023-5.
+267. Chen X, Chen Z, Azman AS, Deng X, Chen X, Lu W, et al. Serological evidence of human infection with SARS-CoV-2: a systematic review and meta-analysis. medRxiv. 2020:2020.09.11.20192773.
+268. Streeck H, Schulte B, Kuemmerer B, Richter E, Hoeller T, Fuhrmann C, et al. Infection fatality rate of SARS-CoV-2 infection in a German community with a super-spreading even. MedRxiv. 2020.
+269. Burgess S, Ponsford MJ, Gill D. Are we underestimating seroprevalence of SARS-CoV-2? BMJ (Clinical research ed). 2020;370:m3364.
+270. Sekine T, Perez-Potti A, Rivera-Ballesteros O, Strålin K, Gorin J-B, Olsson A, et al. Robust T Cell Immunity in Convalescent Individuals with Asymptomatic or Mild COVID-19. Cell. 2020.
+271. Wu S, Wang Y, Jin X, Tian J, Liu J, Mao Y. Environmental contamination by SARS-CoV-2 in a designated hospital for coronavirus disease 2019. American journal of infection control. 2020;48(8):910-4.
+272. Ong SWX, Tan YK, Chia PY, Lee TH, Ng OT, Wong MSY, et al. Air, Surface Environmental, and Personal Protective Equipment Contamination by Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) From a Symptomatic Patient. Jama. 2020;323(16):1610-2.
+273. Cheng VC-C, Wong S-C, Chan VW-M, So SY-C, Chen JH-K, Yip CC-Y, et al. Air and environmental sampling for SARS-CoV-2 around hospitalized patients with coronavirus disease 2019 (COVID-19). Infection control and hospital epidemiology. 2020:1-8.
+274. Ye G, Lin H, Chen S, Wang S, Zeng Z, Wang W, et al. Environmental contamination of SARS-CoV-2 in healthcare premises. Journal of Infection. 2020;81(2):e1-e5.
+275. Riddell S, Goldie S, Hill A, Eagles D, Drew TW. The effect of temperature on persistence of SARS-CoV-2 on common surfaces. Virology Journal. 2020;17(1):145.
+276. Kratzel A, Steiner S, Todt D, V'Kovski P, Brueggemann Y, Steinmann J, et al. Temperature-dependent surface stability of SARS-CoV-2. Journal of Infection.
+277. Chan K, Peiris J, Lam S, Poon L, Yuen K, Seto W. The effects of temperature and relative humidity on the viability of the SARS coronavirus. Advances in virology. 2011;2011.
+278. Darnell ME, Taylor DR. Evaluation of inactivation methods for severe acute respiratory syndrome coronavirus in noncellular blood products. Transfusion. 2006;46(10):1770-7.
+279. Rabenau HF, Cinatl J, Morgenstern B, Bauer G, Preiser W, Doerr HW. Stability and inactivation of SARS coronavirus. Med Microbiol Immunol. 2005;194(1-2):1-6.
+280. Duan SM, Zhao XS, Wen RF, Huang JJ, Pi GH, Zhang SX, et al. Stability of SARS coronavirus in human specimens and environment and its sensitivity to heating and UV irradiation. Biomedical and environmental sciences : BES. 2003;16(3):246-55.
+281. Darnell ME, Subbarao K, Feinstone SM, Taylor DR. Inactivation of the coronavirus that induces severe acute respiratory syndrome, SARS-CoV. Journal of virological methods. 2004;121(1):85-91.
+282. Chin AWH, Chu JTS, Perera MRA, Hui KPY, Yen H-L, Chan MCW, et al. Stability of SARS-CoV-2 in different environmental conditions. The Lancet Microbe. 2020;1(1):e10.
+283. Heilingloh CS, Aufderhorst UW, Schipper L, Dittmer U, Witzke O, Yang D, et al. Susceptibility of SARS-CoV-2 to UV irradiation. American journal of infection control. 2020;48(10):1273-5.
+
+Stand: 30.10.2020
+
+nach oben</content></item>
+    
