@@ -65,8 +65,8 @@ class RssScraper:
 
     def save_item_to_file(self, an_item, a_file_name, item_url="-"):
         try:
-            file = open(self.folder + "/" + a_file_name, 'w')
-            file.write(Et.tostring(an_item, encoding='utf-8', method='xml').decode(encoding='utf-8'))
+            file = open(self.folder + "/" + a_file_name, 'w', encoding='utf-8')
+            file.write(Et.tostring(an_item, encoding='utf-8', method='xml').decode('utf-8'))
             file.close()
         except IOError:
             logger.exception("could not write item \n%s\nto '%s' in folder '%s'" % (item_url, a_file_name, self.folder))

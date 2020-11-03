@@ -451,12 +451,11 @@ class Remove(ItemModifier):
                  ):
         self.stopwords = stopwords
         self.filter_function = filter_function
-        self.filter_symbols = filter_symbols
-        self.filter_function = None
+        self.filter_symbols = list(filter_symbols)
         self.ff = None
         self.create_ff()
         super(Remove, self).__init__(
-            f=lambda tokens: list(filter(self.filter_function, tokens))
+            f=lambda tokens: list(filter(self.ff, tokens))
         )
 
     def create_ff(self):
