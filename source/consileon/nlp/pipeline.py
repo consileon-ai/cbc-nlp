@@ -453,13 +453,14 @@ class Remove(ItemModifier):
         self.filter_function = filter_function
         self.filter_symbols = filter_symbols
         self.filter_function = None
-        self.create_filter_function()
+        self.ff = None
+        self.create_ff()
         super(Remove, self).__init__(
             f=lambda tokens: list(filter(self.filter_function, tokens))
         )
 
-    def create_filter_function(self):
-        self.filter_function = \
+    def create_ff(self):
+        self.ff = \
             lambda w: self.filter_function(w) and w.lower() not in self.stopwords + self.filter_symbols
 
     def add_stopwords(self, a_list):
