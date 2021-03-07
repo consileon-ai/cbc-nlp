@@ -1,1 +1,3 @@
 /examples/notebooks/w2v_model_*
+/venv
+/temp
