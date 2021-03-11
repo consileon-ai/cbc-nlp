@@ -100,3 +100,11 @@ def get_xml_filename(pdf_filename, re_cleanse_fn=RE_REPLACE_UNWANTED_CHARS_IN_FN
         logging.error(s)
         raise Exception(s)
     return result
+
+
+def get_text_from_pdf_buffer(someBytes):
+    result = None
+    if someBytes is not None and someBytes.startswith(b'%PDF'):
+        text = tk_parser.from_buffer(someBytes)['content']
+        result = re.sub(r'(\w)- *\n([a-zÃ¤Ã¼Ã¶])', r'\1\2', text).strip()
+    return result

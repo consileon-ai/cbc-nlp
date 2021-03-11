@@ -7,18 +7,18 @@ Read and store content from rss feeds
 
 import hashlib
 import logging
-import os
 import random
 import re
 import time
 import xml.etree.ElementTree as Et
-from os import listdir
-from os.path import isfile, join
 from urllib.request import Request, urlopen
 from xml.etree.ElementTree import Element
 from xml.etree.ElementTree import ParseError
-
 from tika import parser as tk_parser
+import consileon.nlp.content as content
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 logger = logging.getLogger('consileon.nlp.rss_scraping')
 
@@ -29,64 +29,77 @@ class RssScraper:
     the same was
     """
 
-    def __init__(self,
-                 urls=(),
-                 folder='.',
-                 extractor=None,
-                 time_wait_seconds=3600,
-                 do_save=False,
-                 time_wait_between_items=0.01):
+    def __init__(
+        self,
+        urls=(),
+        extractor=None,
+        time_wait_seconds=3600,
+        do_save=False,
+        time_wait_between_items=0.01,
+        prefix="",
+        content_handler=None,
+        timeout=None
+    ):
+        logger.info("Initializing scraper: '%s'" % prefix)
         self.urls = list(urls)
-        self.folder = folder
         self.extractors = {'default': extractor}
         self.knownItems = {}
         self.timeWaitSeconds = time_wait_seconds
         self.doSave = do_save
         self.userAgent = 'Mozilla/5.0'
         self.timeWaitBetweenItems = time_wait_between_items
-        try:
-            os.mkdir(self.folder)
-        except OSError:
-            print("Creation of the directory %s failed" % self.folder)
+        self.prefix = prefix
+        self.timeout = timeout
+        if content_handler is not None:
+            self.content_handler = content_handler
         else:
-            print("Successfully created the directory %s " % self.folder)
+            self.content_handler = content.FileSystemContentHandler()
         if self.doSave:
-            self.knownItems = {f: "dummy" for f in listdir(self.folder) if isfile(join(self.folder, f))}
+            logger.info("Reading known items for '%s'." % prefix)
+            self.knownItems = {f: "dummy" for f in content_handler.list(self.prefix)}
+            logger.info("Ready: Reading known items for '%s', number: %i ." % (prefix, len(self.knownItems)))
 
-    def get_item_from_file(self, a_file_name):
+    def get_item(self, a_key):
         """
         Read a single rss item from a file
 
         Args:
             :a_file_name str: full name (including path) of file containing the item
         """
-        result = Et.parse(self.folder + "/" + a_file_name).getroot()
+        result = Et.fromstring(self.content_handler.get_text(a_key, prefix=self.prefix))
         return result
 
-    def save_item_to_file(self, an_item, a_file_name, item_url="-"):
-        try:
-            file = open(self.folder + "/" + a_file_name, 'w', encoding='utf-8')
-            file.write(Et.tostring(an_item, encoding='utf-8', method='xml').decode('utf-8'))
-            file.close()
-        except IOError:
-            logger.exception("could not write item \n%s\nto '%s' in folder '%s'" % (item_url, a_file_name, self.folder))
-            print("could not write item \n%s\nto '%s' in folder '%s'" % (item_url, a_file_name, self.folder))
+    def save_item(self, an_item, a_key, item_url="-"):
+        self.content_handler.save_text(
+            a_key,
+            Et.tostring(an_item, encoding='utf-8', method='xml').decode('utf-8'),
+            prefix=self.prefix
+        )
 
     def pull_once(self):
+        num_all = 0
+        num_new = 0
         for i in self.get_all_items():
+            num_all = num_all + 1
             l_ = RssScraper.get_link_from_item(i)
             file_name = RssScraper.get_md5_hash(l_) + ".xml"
             if file_name not in self.knownItems:
+                found_content = False
                 for aLanguage in self.extractors:
-                    RssScraper.add_content_to_item(
+                    found_lang = RssScraper.add_content_to_item(
                         i,
                         self.extractors[aLanguage],
                         aLanguage,
-                        time_wait=self.timeWaitBetweenItems
+                        time_wait=self.timeWaitBetweenItems,
+                        timeout=self.timeout
                     )
-                self.knownItems[file_name] = i
-                if self.doSave:
-                    self.save_item_to_file(i, file_name, item_url=l_)
+                    found_content = found_lang or found_content
+                if found_content:
+                    num_new = num_new + 1
+                    self.knownItems[file_name] = i
+                    if self.doSave:
+                        self.save_item(i, file_name, item_url=l_)
+        logger.info("%s : Inserted %i new items (from %i)" % (self.prefix, num_new, num_all))
 
     def poll(self):
         while True:
@@ -94,7 +107,15 @@ class RssScraper:
             time.sleep(self.timeWaitSeconds)
 
     def get_all_items(self):
-        rss_docs = [RssScraper.append_channel_info_to_items(RssScraper.parse_xml_from_url(url)) for url in self.urls]
+        rss_docs = [
+            RssScraper.append_channel_info_to_items(
+                RssScraper.parse_xml_from_url(
+                    url,
+                    timeout=self.timeout
+                )
+            )
+            for url in self.urls
+        ]
         result = [i for doc in rss_docs if doc is not None for i in doc.findall('./channel/item')]
         return result
 
@@ -102,22 +123,26 @@ class RssScraper:
         return [RssScraper.get_link_from_item(i) for i in self.get_all_items()]
 
     @staticmethod
-    def add_content_to_item(an_item, an_extractor, language='default', time_wait=0.0):
+    def add_content_to_item(an_item, an_extractor, language='default', time_wait=0.0, timeout=None):
         link_url = RssScraper.get_link_from_item(an_item)
+        content_ = None
         if link_url is not None:
             time.sleep(time_wait)
-            html = RssScraper.read_doc_from_url(link_url)
+            html = RssScraper.read_doc_from_url(link_url, timeout=timeout)
             if html is not None:
                 old_content = an_item.find('content[@language="' + language + '"]')
                 if old_content is not None:
                     an_item.remove(old_content)
                 a_text = an_extractor(html)
-                content = Element("content")
+                content_ = Element("content")
                 if language is not None:
-                    content.set('language', language)
-                content.text = a_text
-                an_item.append(content)
-        return
+                    content_.set('language', language)
+                content_.text = a_text
+                an_item.append(content_)
+        if content_ is not None:
+            return True
+        else:
+            return False
 
     @staticmethod
     def get_link_from_item(an_item):
@@ -153,25 +178,35 @@ class RssScraper:
         return a_doc
 
     @staticmethod
-    def read_doc_from_url(an_url):
+    def read_doc_from_url(an_url, timeout=None):
         result = None
         try:
             req = Request(an_url, headers={'User-Agent': 'Mozilla/5.0'})
-            result = urlopen(req).read()
+            if timeout is not None:
+                result = urlopen(req, timeout=timeout).read()
+            else:
+                result = urlopen(req).read()
         except IOError:
-            logger.exception("could not read from %s" % an_url)
+            logger.error("could not read from %s" % an_url)
             print("could not read from %s" % an_url)
         return result
 
     @staticmethod
-    def parse_xml_from_url(an_url):
+    def parse_xml_from_url(an_url, timeout=None):
         result = None
         if an_url is not None:
-            result = Et.fromstring(RssScraper.read_doc_from_url(an_url))
+            doc = RssScraper.read_doc_from_url(an_url, timeout=timeout)
+            if doc is not None:
+                try:
+                    result = Et.fromstring(RssScraper.read_doc_from_url(an_url, timeout=timeout))
+                except ParseError:
+                    logger.error("Could not parse xml from '%s'" % an_url)
+            else:
+                logger.warning("Could not retrieve doc from url\n %s" % an_url)
         return result
 
     def reload_content(self, a_file_name):
-        the_item = self.get_item_from_file(a_file_name)
+        the_item = self.get_item(a_file_name)
         if the_item is not None:
             for aLanguage in self.extractors:
                 RssScraper.add_content_to_item(the_item, self.extractors[aLanguage], aLanguage)
@@ -180,7 +215,7 @@ class RssScraper:
     def regenerate_content(self, a_file_list):
         for f in a_file_list:
             item = self.reload_content(f)
-            self.save_item_to_file(item, f)
+            self.save_item(item, f)
 
 
 def get_text_from_pdf_buffer(some_bytes):
@@ -191,7 +226,7 @@ def get_text_from_pdf_buffer(some_bytes):
     return result
 
 
-def create_rss_file_list(database_dir, channels, do_random_shuffle=True):
+def create_rss_file_list(content_provider, channels, do_random_shuffle=True):
     """
     Create a list of xml files which are stored within the structure of the "rss grabber".
 
@@ -203,16 +238,16 @@ def create_rss_file_list(database_dir, channels, do_random_shuffle=True):
 
     """
     files = [
-        join(join(database_dir, d), f) for d in channels for f in listdir(join(database_dir, d)) if f.endswith(".xml")
+        (d, f) for d in channels for f in content_provider.list(prefix=d) if f.endswith(".xml")
     ]
     if do_random_shuffle:
         random.shuffle(files)
     return files
 
 
-def load_xml_doc_from_file(filename):
+def load_xml_doc(content_provider, key, prefix=""):
     """
-    Read xml object from a file
+    Read xml object from a text provided by a content_provider
 
     Args:
         :filename (str): the full filename of a file containing an xml file
@@ -221,10 +256,10 @@ def load_xml_doc_from_file(filename):
         The xml object of type xml.etree.ElementTree.Element
 
     """
-    return Et.parse(filename).getroot()
+    return Et.fromstring(content_provider.get_text(key, prefix=prefix))
 
 
-def get_texts_from_item_file(filename):
+def get_texts_from_item(key, prefix=""):
     """
     Read the content of the tags "title", "description", "content" from an xml file (typically in the "item" format)
 
@@ -235,11 +270,11 @@ def get_texts_from_item_file(filename):
         :(title, description, content) (str, str, str): the respective tags of the xml file
 
     """
-    xml = load_xml_doc_from_file(filename)
+    xml = load_xml_doc(key, prefix=prefix)
     try:
-        content = " ".join([c.text for c in xml.findall("./" + "content") if c.text is not None]).strip()
+        content_ = " ".join([c.text for c in xml.findall("./" + "content") if c.text is not None]).strip()
     except (ParseError, TypeError):
-        content = ""
+        content_ = ""
     try:
         title = " ".join([c.text for c in xml.findall("./" + "title") if c.text is not None]).strip()
     except (ParseError, TypeError):
@@ -248,4 +283,4 @@ def get_texts_from_item_file(filename):
         description = " ".join([c.text for c in xml.findall("./" + "description") if c.text is not None]).strip()
     except (ParseError, TypeError):
         description = ""
-    return title, description, content
+    return title, description, content_
